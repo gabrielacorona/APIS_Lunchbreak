@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>15473316298-rgruj923k72ric7hme45cg95cha9pvl5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.15473316298-rgruj923k72ric7hme45cg95cha9pvl5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCS5to2ZQSFtkEfeBag4aEd_gRKlHeM2MA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>15473316298</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.appcoda.APIS-Lunchbreak</string>
+	<key>PROJECT_ID</key>
+	<string>lunchbreak-6e9f4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lunchbreak-6e9f4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:15473316298:ios:1d922848ea2c29726fff33</string>
+</dict>
+</plist>
