@@ -42,13 +42,13 @@ class DatabaseManager{
     
     //MARK: - Create DB Records
 
-    func createUser(fName:String, lName:String, email:String, password:String){
-        firestore.collection("User").addDocument(data:["fName":fName, "lName":lName,  "email":email, "password": password ])
+    func createUser(fName:String, lName:String, email:String, password:String,description:String){
+        firestore.collection("User").addDocument(data:["fName":fName, "lName":lName,  "email":email, "password": password, "description":description ])
     }
     
     //MARK: - Edit DB Records
-    func editUser(id:String,fName:String, lName:String, email:String, password:String){
-        firestore.collection("User").document(id).updateData(["fName":fName, "lName":lName,  "email":email, "password": password] )
+    func editUser(id:String,fName:String, lName:String, email:String, password:String,description:String){
+        firestore.collection("User").document(id).updateData(["fName":fName, "lName":lName,  "email":email, "password": password,"descripton":description] )
     }
     
     
