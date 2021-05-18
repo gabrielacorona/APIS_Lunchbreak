@@ -23,6 +23,13 @@
 		0B33D184265441290006B132 /* VCAddNewPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D183265441290006B132 /* VCAddNewPlace.swift */; };
 		0B33D18A265441A70006B132 /* TVCViewLunchbreaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D189265441A70006B132 /* TVCViewLunchbreaks.swift */; };
 		0B33D18E2654420B0006B132 /* TVCAddFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D18D2654420B0006B132 /* TVCAddFriends.swift */; };
+		0FA6E29B2654838800EC7133 /* RedHatDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2962654838800EC7133 /* RedHatDisplay-Black.ttf */; };
+		0FA6E29C2654838800EC7133 /* RedHatDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2972654838800EC7133 /* RedHatDisplay-Bold.ttf */; };
+		0FA6E29D2654838800EC7133 /* PublicSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2982654838800EC7133 /* PublicSans-Regular.ttf */; };
+		0FA6E29E2654838800EC7133 /* PublicSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2992654838800EC7133 /* PublicSans-Bold.ttf */; };
+		0FA6E29F2654838800EC7133 /* PublicSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E29A2654838800EC7133 /* PublicSans-Medium.ttf */; };
+		0FA6E2A2265484F700EC7133 /* Circular Std Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2A1265484F700EC7133 /* Circular Std Book.ttf */; };
+		0FA6E2A52654851100EC7133 /* Circular Std Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2A42654851100EC7133 /* Circular Std Medium.ttf */; };
 		FA36A10BE2B40D6C1FDADA60 /* Pods_APIS_Lunchbreak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CB008422EE73E32A3F3A87 /* Pods_APIS_Lunchbreak.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +52,13 @@
 		0B33D183265441290006B132 /* VCAddNewPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAddNewPlace.swift; sourceTree = "<group>"; };
 		0B33D189265441A70006B132 /* TVCViewLunchbreaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCViewLunchbreaks.swift; sourceTree = "<group>"; };
 		0B33D18D2654420B0006B132 /* TVCAddFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCAddFriends.swift; sourceTree = "<group>"; };
+		0FA6E2962654838800EC7133 /* RedHatDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Black.ttf"; sourceTree = "<group>"; };
+		0FA6E2972654838800EC7133 /* RedHatDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		0FA6E2982654838800EC7133 /* PublicSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Regular.ttf"; sourceTree = "<group>"; };
+		0FA6E2992654838800EC7133 /* PublicSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Bold.ttf"; sourceTree = "<group>"; };
+		0FA6E29A2654838800EC7133 /* PublicSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Medium.ttf"; sourceTree = "<group>"; };
+		0FA6E2A1265484F700EC7133 /* Circular Std Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circular Std Book.ttf"; sourceTree = "<group>"; };
+		0FA6E2A42654851100EC7133 /* Circular Std Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circular Std Medium.ttf"; sourceTree = "<group>"; };
 		744AEEE3700BC57B4FB3FF97 /* Pods-APIS_Lunchbreak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIS_Lunchbreak.release.xcconfig"; path = "Target Support Files/Pods-APIS_Lunchbreak/Pods-APIS_Lunchbreak.release.xcconfig"; sourceTree = "<group>"; };
 		77CB008422EE73E32A3F3A87 /* Pods_APIS_Lunchbreak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIS_Lunchbreak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B113359C2A489C3EE07AD245 /* Pods-APIS_Lunchbreak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIS_Lunchbreak.debug.xcconfig"; path = "Target Support Files/Pods-APIS_Lunchbreak/Pods-APIS_Lunchbreak.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +97,7 @@
 		0B299CFA26531CA8005A2B77 /* APIS_Lunchbreak */ = {
 			isa = PBXGroup;
 			children = (
+				0FA6E2952654838800EC7133 /* Fonts */,
 				0B33D17E26543F650006B132 /* Assets */,
 				0B299D732653286D005A2B77 /* Helpers */,
 				0B299D6A265327CC005A2B77 /* Modelo */,
@@ -143,6 +158,20 @@
 				744AEEE3700BC57B4FB3FF97 /* Pods-APIS_Lunchbreak.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		0FA6E2952654838800EC7133 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6E2A1265484F700EC7133 /* Circular Std Book.ttf */,
+				0FA6E2A42654851100EC7133 /* Circular Std Medium.ttf */,
+				0FA6E2962654838800EC7133 /* RedHatDisplay-Black.ttf */,
+				0FA6E2972654838800EC7133 /* RedHatDisplay-Bold.ttf */,
+				0FA6E2982654838800EC7133 /* PublicSans-Regular.ttf */,
+				0FA6E2992654838800EC7133 /* PublicSans-Bold.ttf */,
+				0FA6E29A2654838800EC7133 /* PublicSans-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		63D0072D93537E13A4C35B3E /* Frameworks */ = {
@@ -213,9 +242,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B299D0826531CA9005A2B77 /* LaunchScreen.storyboard in Resources */,
+				0FA6E29E2654838800EC7133 /* PublicSans-Bold.ttf in Resources */,
+				0FA6E29B2654838800EC7133 /* RedHatDisplay-Black.ttf in Resources */,
+				0FA6E29F2654838800EC7133 /* PublicSans-Medium.ttf in Resources */,
 				0B299D3226531FAA005A2B77 /* GoogleService-Info.plist in Resources */,
 				0B299D0526531CA9005A2B77 /* Assets.xcassets in Resources */,
+				0FA6E29C2654838800EC7133 /* RedHatDisplay-Bold.ttf in Resources */,
 				0B299D0326531CA8005A2B77 /* Main.storyboard in Resources */,
+				0FA6E2A52654851100EC7133 /* Circular Std Medium.ttf in Resources */,
+				0FA6E2A2265484F700EC7133 /* Circular Std Book.ttf in Resources */,
+				0FA6E29D2654838800EC7133 /* PublicSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -62,5 +62,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>RedHatDisplay-Black.ttf</string>
+		<string>RedHatDisplay-Bold.ttf</string>
+		<string>PublicSans-Regular.ttf</string>
+		<string>PublicSans-Bold.ttf</string>
+		<string>PublicSans-Medium.ttf</string>
+		<string>Circular Std Book.ttf</string>
+		<string>Circular Std Medium.ttf</string>
+	</array>
 </dict>
 </plist>
