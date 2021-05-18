@@ -7,6 +7,9 @@ target 'APIS_Lunchbreak' do
 
   # Pods for APIS_Lunchbreak
 pod 'Firebase'
+pod 'Firebase/Firestore'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
 # add pods for desired Firebase products
   # https://firebase.google.com/docs/ios/setup#available-pods
 
