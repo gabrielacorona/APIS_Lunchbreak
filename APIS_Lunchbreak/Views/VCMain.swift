@@ -10,7 +10,7 @@ import UIKit
 class VCMain: UIViewController {
 
     @IBOutlet weak var signInBtn: UIButton!
-    @IBOutlet weak var newAcc: UILabel!
+    @IBOutlet weak var newAcc: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,11 +19,10 @@ class VCMain: UIViewController {
 
         let underlineAttriString = NSAttributedString(string: "New Account",
                                                   attributes: [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue])
-        newAcc.attributedText = underlineAttriString
-
-        // Do any additional setup after loading the view.
+        newAcc.titleLabel?.attributedText = underlineAttriString
     }
-    
+
+
 
     /*
     // MARK: - Navigation
