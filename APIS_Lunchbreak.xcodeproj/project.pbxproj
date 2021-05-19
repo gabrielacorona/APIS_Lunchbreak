@@ -33,6 +33,9 @@
 		0FA6E2A8265488D700EC7133 /* intro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2A7265488D700EC7133 /* intro.jpeg */; };
 		0FA6E2AB265489CE00EC7133 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2AA265489CE00EC7133 /* logo.png */; };
 		0FA6E2AE26548A6400EC7133 /* Circular Std Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2AD26548A6400EC7133 /* Circular Std Bold.ttf */; };
+		8DDEDA3D2654906900DA6D88 /* TableViewCellLunchB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */; };
+		8DDEDA55265498B200DA6D88 /* ViewControllerMyFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA54265498B200DA6D88 /* ViewControllerMyFriends.swift */; };
+		8DDEDA582654A32800DA6D88 /* ViewControllerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA572654A32800DA6D88 /* ViewControllerProfile.swift */; };
 		FA36A10BE2B40D6C1FDADA60 /* Pods_APIS_Lunchbreak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CB008422EE73E32A3F3A87 /* Pods_APIS_Lunchbreak.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +70,9 @@
 		0FA6E2AD26548A6400EC7133 /* Circular Std Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circular Std Bold.ttf"; sourceTree = "<group>"; };
 		744AEEE3700BC57B4FB3FF97 /* Pods-APIS_Lunchbreak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIS_Lunchbreak.release.xcconfig"; path = "Target Support Files/Pods-APIS_Lunchbreak/Pods-APIS_Lunchbreak.release.xcconfig"; sourceTree = "<group>"; };
 		77CB008422EE73E32A3F3A87 /* Pods_APIS_Lunchbreak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIS_Lunchbreak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellLunchB.swift; sourceTree = "<group>"; };
+		8DDEDA54265498B200DA6D88 /* ViewControllerMyFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMyFriends.swift; sourceTree = "<group>"; };
+		8DDEDA572654A32800DA6D88 /* ViewControllerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProfile.swift; sourceTree = "<group>"; };
 		B113359C2A489C3EE07AD245 /* Pods-APIS_Lunchbreak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIS_Lunchbreak.debug.xcconfig"; path = "Target Support Files/Pods-APIS_Lunchbreak/Pods-APIS_Lunchbreak.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +116,9 @@
 				0B299CFB26531CA8005A2B77 /* AppDelegate.swift */,
 				0B299CFD26531CA8005A2B77 /* SceneDelegate.swift */,
 				0B299D0126531CA8005A2B77 /* Main.storyboard */,
+				8DDEDA572654A32800DA6D88 /* ViewControllerProfile.swift */,
+				8DDEDA54265498B200DA6D88 /* ViewControllerMyFriends.swift */,
+				8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */,
 				0B299D8D26532EE5005A2B77 /* Views */,
 				0B299D0426531CA9005A2B77 /* Assets.xcassets */,
 				0B299D0626531CA9005A2B77 /* LaunchScreen.storyboard */,
@@ -317,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B299D8F26532F08005A2B77 /* VCAddUserViewController.swift in Sources */,
+				8DDEDA3D2654906900DA6D88 /* TableViewCellLunchB.swift in Sources */,
 				0B33D18A265441A70006B132 /* TVCViewLunchbreaks.swift in Sources */,
 				0B33D179265432C70006B132 /* Lunchbreak.swift in Sources */,
 				0B33D18E2654420B0006B132 /* TVCAddFriends.swift in Sources */,
@@ -324,7 +334,9 @@
 				0B33D184265441290006B132 /* VCAddNewPlace.swift in Sources */,
 				0B299D7126532831005A2B77 /* User.swift in Sources */,
 				0B299D7526532881005A2B77 /* DatabaseManager.swift in Sources */,
+				8DDEDA582654A32800DA6D88 /* ViewControllerProfile.swift in Sources */,
 				0B299CFC26531CA8005A2B77 /* AppDelegate.swift in Sources */,
+				8DDEDA55265498B200DA6D88 /* ViewControllerMyFriends.swift in Sources */,
 				0B299CFE26531CA8005A2B77 /* SceneDelegate.swift in Sources */,
 				0B33D181265440430006B132 /* VCCreateLunchbreak.swift in Sources */,
 				0B33D17C265433840006B132 /* Places.swift in Sources */,
