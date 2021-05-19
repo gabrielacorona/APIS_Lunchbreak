@@ -36,6 +36,8 @@
 		8DDEDA3D2654906900DA6D88 /* TableViewCellLunchB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */; };
 		8DDEDA55265498B200DA6D88 /* ViewControllerMyFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA54265498B200DA6D88 /* ViewControllerMyFriends.swift */; };
 		8DDEDA582654A32800DA6D88 /* ViewControllerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA572654A32800DA6D88 /* ViewControllerProfile.swift */; };
+		0FA6E2BD2654978700EC7133 /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6E2BC2654978700EC7133 /* VCLogin.swift */; };
+		0FA6E2D926549D5700EC7133 /* VCSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6E2D826549D5700EC7133 /* VCSignUp.swift */; };
 		FA36A10BE2B40D6C1FDADA60 /* Pods_APIS_Lunchbreak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CB008422EE73E32A3F3A87 /* Pods_APIS_Lunchbreak.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		0FA6E2A7265488D700EC7133 /* intro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro.jpeg; sourceTree = "<group>"; };
 		0FA6E2AA265489CE00EC7133 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		0FA6E2AD26548A6400EC7133 /* Circular Std Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circular Std Bold.ttf"; sourceTree = "<group>"; };
+		0FA6E2BC2654978700EC7133 /* VCLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLogin.swift; sourceTree = "<group>"; };
+		0FA6E2D826549D5700EC7133 /* VCSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSignUp.swift; sourceTree = "<group>"; };
 		744AEEE3700BC57B4FB3FF97 /* Pods-APIS_Lunchbreak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIS_Lunchbreak.release.xcconfig"; path = "Target Support Files/Pods-APIS_Lunchbreak/Pods-APIS_Lunchbreak.release.xcconfig"; sourceTree = "<group>"; };
 		77CB008422EE73E32A3F3A87 /* Pods_APIS_Lunchbreak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIS_Lunchbreak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellLunchB.swift; sourceTree = "<group>"; };
@@ -150,11 +154,13 @@
 			isa = PBXGroup;
 			children = (
 				0B299D8E26532F08005A2B77 /* VCAddUserViewController.swift */,
+				0FA6E2BC2654978700EC7133 /* VCLogin.swift */,
 				0B299D9B2653308A005A2B77 /* VCMain.swift */,
 				0B33D180265440430006B132 /* VCCreateLunchbreak.swift */,
 				0B33D183265441290006B132 /* VCAddNewPlace.swift */,
 				0B33D189265441A70006B132 /* TVCViewLunchbreaks.swift */,
 				0B33D18D2654420B0006B132 /* TVCAddFriends.swift */,
+				0FA6E2D826549D5700EC7133 /* VCSignUp.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -332,11 +338,13 @@
 				0B33D18E2654420B0006B132 /* TVCAddFriends.swift in Sources */,
 				0B299D9C2653308A005A2B77 /* VCMain.swift in Sources */,
 				0B33D184265441290006B132 /* VCAddNewPlace.swift in Sources */,
+				0FA6E2BD2654978700EC7133 /* VCLogin.swift in Sources */,
 				0B299D7126532831005A2B77 /* User.swift in Sources */,
 				0B299D7526532881005A2B77 /* DatabaseManager.swift in Sources */,
 				8DDEDA582654A32800DA6D88 /* ViewControllerProfile.swift in Sources */,
 				0B299CFC26531CA8005A2B77 /* AppDelegate.swift in Sources */,
 				8DDEDA55265498B200DA6D88 /* ViewControllerMyFriends.swift in Sources */,
+				0FA6E2D926549D5700EC7133 /* VCSignUp.swift in Sources */,
 				0B299CFE26531CA8005A2B77 /* SceneDelegate.swift in Sources */,
 				0B33D181265440430006B132 /* VCCreateLunchbreak.swift in Sources */,
 				0B33D17C265433840006B132 /* Places.swift in Sources */,

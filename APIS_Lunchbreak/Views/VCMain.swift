@@ -9,12 +9,20 @@ import UIKit
 
 class VCMain: UIViewController {
 
+    @IBOutlet weak var signInBtn: UIButton!
+    @IBOutlet weak var newAcc: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        signInBtn.layer.cornerRadius = 20
+        signInBtn.clipsToBounds = true
 
-        // Do any additional setup after loading the view.
+        let underlineAttriString = NSAttributedString(string: "New Account",
+                                                  attributes: [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue])
+        newAcc.titleLabel?.attributedText = underlineAttriString
     }
-    
+
+
 
     /*
     // MARK: - Navigation
