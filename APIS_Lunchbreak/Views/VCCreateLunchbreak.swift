@@ -16,8 +16,20 @@ class VCCreateLunchbreak: UIViewController {
     @IBOutlet weak var createLunchbreak: UIButton!
     @IBOutlet weak var host: UITextField!
     
-    var joinedBy :[String] = []
+    @IBOutlet weak var btnItalian: SelectionButton!
+    @IBOutlet weak var btnMexican: SelectionButton!
+    @IBOutlet weak var btnVegan: SelectionButton!
+    @IBOutlet weak var btnOther: SelectionButton!
+    @IBOutlet weak var btnHealthy: SelectionButton!
+    @IBOutlet weak var btnAsian: SelectionButton!
+    
+    var foodType: [String: Bool] = [:]
+
+    
+    var joinedBy :[String] = ["ana"]
     var timeToString : String = ""
+    var typeFood : [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Create Lunchbreak"
@@ -52,4 +64,42 @@ class VCCreateLunchbreak: UIViewController {
         self.present(alert, animated: true, completion: nil)
         
     }
+    
+    @IBAction func addMexicanBtn(_ sender: Any) {
+        addFood(type: "Mexican", btn: btnMexican)
+    }
+    
+    @IBAction func addVeganBtn(_ sender: Any) {
+        addFood(type: "Vegan", btn: btnVegan)
+    }
+    
+    @IBAction func addOtherBtn(_ sender: Any) {
+        addFood(type: "Other", btn: btnOther)
+    }
+    
+    @IBAction func addItalian(_ sender: Any) {
+        addFood(type: "Italian", btn: btnItalian)
+    }
+    
+    @IBAction func addHealthy(_ sender: Any) {
+        addFood(type: "Healthy", btn: btnHealthy)
+    }
+    
+    @IBAction func addAsian(_ sender: Any) {
+        addFood(type: "Asian", btn: btnAsian)
+    }
+    
+    func addFood(type: String, btn: SelectionButton){
+        if btn.isSelected == true {
+            print(type, "des")
+            foodType[type] = false
+            btn.isSelected = false
+        } else{
+            print(type, "sel")
+            foodType[type] = true
+            btn.isSelected = true
+        }
+        print("dict", foodType)
+    }
+        
 }
