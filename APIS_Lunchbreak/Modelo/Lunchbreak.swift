@@ -13,6 +13,7 @@ class Lunchbreak:Codable{
     var host:String = ""
     var time: String = ""
     var  whatToEat: String = ""
+    var placeName: String = ""
     var location: String = ""
     
     var joinedBy: [String] = []
