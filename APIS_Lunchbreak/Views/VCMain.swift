@@ -11,15 +11,16 @@ class VCMain: UIViewController {
 
     @IBOutlet weak var signInBtn: UIButton!
     @IBOutlet weak var newAcc: UIButton!
+    @IBOutlet weak var humilde: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        signInBtn.layer.cornerRadius = 20
-        signInBtn.clipsToBounds = true
+        signInBtn?.layer.cornerRadius = 20
+        signInBtn?.clipsToBounds = true
 
         let underlineAttriString = NSAttributedString(string: "New Account",
                                                   attributes: [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue])
-        newAcc.titleLabel?.attributedText = underlineAttriString
+        newAcc?.titleLabel?.attributedText = underlineAttriString
     }
 
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7oa-wX-BRp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7oa-wX-BRp">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -119,6 +119,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="RFV-9t-3lB"/>
                     <connections>
+                        <outlet property="humilde" destination="D0t-s2-CIa" id="NUX-hB-O6a"/>
                         <outlet property="newAcc" destination="d8W-P2-xYS" id="BmJ-Ge-jlV"/>
                         <outlet property="signInBtn" destination="u1m-sQ-18s" id="OTw-L0-Yvq"/>
                     </connections>
@@ -1025,7 +1026,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kFt-ii-g3Z"/>
+        <segue reference="pVJ-zy-3MZ"/>
         <segue reference="JFY-sQ-Eiz"/>
     </inferredMetricsTieBreakers>
     <resources>
