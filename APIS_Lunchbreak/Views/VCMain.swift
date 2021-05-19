@@ -9,8 +9,17 @@ import UIKit
 
 class VCMain: UIViewController {
 
+    @IBOutlet weak var signInBtn: UIButton!
+    @IBOutlet weak var newAcc: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        signInBtn.layer.cornerRadius = 20
+        signInBtn.clipsToBounds = true
+
+        let underlineAttriString = NSAttributedString(string: "New Account",
+                                                  attributes: [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue])
+        newAcc.attributedText = underlineAttriString
 
         // Do any additional setup after loading the view.
     }
