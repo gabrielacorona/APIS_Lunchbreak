@@ -28,7 +28,7 @@ class VCCreateLunchbreak: UIViewController {
     
     var joinedBy :[String] = ["ana"]
     var timeToString : String = ""
-    var typeFood : [String] = []
+    var typeFood : String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,9 +55,9 @@ class VCCreateLunchbreak: UIViewController {
     }
 
     @IBAction func createNewLunchbreak(_ sender: Any) {
-        DatabaseManager.shared.createLunchbreak(host: host.text!, joinedBy: joinedBy, location: location.text!, placeName: "na", time: timeToString, whatToEat: typeOfFood.text!)
+        DatabaseManager.shared.createLunchbreak(host: host.text!, joinedBy: joinedBy, location: location.text!, placeName: "na", time: timeToString, whatToEat: getListFood())
       
-       
+        getListFood()
         let alert = UIAlertController(title: "Lunchbreak Created", message: "Lunchbreak Created Successfully.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
         }))
@@ -101,5 +101,15 @@ class VCCreateLunchbreak: UIViewController {
         }
         print("dict", foodType)
     }
-        
+    
+    func getListFood() -> String {
+        for i in foodType{
+            if(i.value == true){
+                typeFood += i.key
+                typeFood +=  ", "
+            }
+        }
+        return typeFood
+    }
+    // todo delete last comma
 }
