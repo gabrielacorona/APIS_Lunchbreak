@@ -11,7 +11,6 @@ class VCCreateLunchbreak: UIViewController {
 
     @IBOutlet weak var tableViewJoin: UITableView!
     @IBOutlet weak var location: UITextField!
-    @IBOutlet weak var placeName: UITextField!
     @IBOutlet weak var typeOfFood: UITextField!
     @IBOutlet weak var time: UIDatePicker!
     @IBOutlet weak var createLunchbreak: UIButton!
@@ -44,7 +43,7 @@ class VCCreateLunchbreak: UIViewController {
     }
 
     @IBAction func createNewLunchbreak(_ sender: Any) {
-        DatabaseManager.shared.createLunchbreak(host: host.text!, joinedBy: joinedBy, location: location.text!, placeName: placeName.text!, time: timeToString, whatToEat: typeOfFood.text!)
+        DatabaseManager.shared.createLunchbreak(host: host.text!, joinedBy: joinedBy, location: location.text!, placeName: "na", time: timeToString, whatToEat: typeOfFood.text!)
       
        
         let alert = UIAlertController(title: "Lunchbreak Created", message: "Lunchbreak Created Successfully.", preferredStyle: .alert)
