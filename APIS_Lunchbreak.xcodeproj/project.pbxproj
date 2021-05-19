@@ -21,6 +21,7 @@
 		0B33D181265440430006B132 /* VCCreateLunchbreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D180265440430006B132 /* VCCreateLunchbreak.swift */; };
 		0B33D18A265441A70006B132 /* TVCViewLunchbreaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D189265441A70006B132 /* TVCViewLunchbreaks.swift */; };
 		0B33D18E2654420B0006B132 /* TVCAddFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D18D2654420B0006B132 /* TVCAddFriends.swift */; };
+		0F8CE1AF2655A6D600BFD66A /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CE1AE2655A6D600BFD66A /* SelectionButton.swift */; };
 		0FA6E29B2654838800EC7133 /* RedHatDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2962654838800EC7133 /* RedHatDisplay-Black.ttf */; };
 		0FA6E29C2654838800EC7133 /* RedHatDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2972654838800EC7133 /* RedHatDisplay-Bold.ttf */; };
 		0FA6E29D2654838800EC7133 /* PublicSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2982654838800EC7133 /* PublicSans-Regular.ttf */; };
@@ -56,6 +57,7 @@
 		0B33D180265440430006B132 /* VCCreateLunchbreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCreateLunchbreak.swift; sourceTree = "<group>"; };
 		0B33D189265441A70006B132 /* TVCViewLunchbreaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCViewLunchbreaks.swift; sourceTree = "<group>"; };
 		0B33D18D2654420B0006B132 /* TVCAddFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCAddFriends.swift; sourceTree = "<group>"; };
+		0F8CE1AE2655A6D600BFD66A /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectionButton.swift; path = APIS_Lunchbreak/Helpers/SelectionButton.swift; sourceTree = SOURCE_ROOT; };
 		0FA6E2962654838800EC7133 /* RedHatDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Black.ttf"; sourceTree = "<group>"; };
 		0FA6E2972654838800EC7133 /* RedHatDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		0FA6E2982654838800EC7133 /* PublicSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Regular.ttf"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				0B33D189265441A70006B132 /* TVCViewLunchbreaks.swift */,
 				0B33D18D2654420B0006B132 /* TVCAddFriends.swift */,
 				0FA6E2D826549D5700EC7133 /* VCSignUp.swift */,
+				0F8CE1AE2655A6D600BFD66A /* SelectionButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			files = (
 				0B299D8F26532F08005A2B77 /* VCAddUserViewController.swift in Sources */,
 				8DDEDA3D2654906900DA6D88 /* TableViewCellLunchB.swift in Sources */,
+				0F8CE1AF2655A6D600BFD66A /* SelectionButton.swift in Sources */,
 				0B33D18A265441A70006B132 /* TVCViewLunchbreaks.swift in Sources */,
 				0B33D179265432C70006B132 /* Lunchbreak.swift in Sources */,
 				0B33D18E2654420B0006B132 /* TVCAddFriends.swift in Sources */,
