@@ -46,6 +46,10 @@ class DatabaseManager{
         firestore.collection("User").addDocument(data:["fName":fName, "lName":lName,  "email":email, "password": password, "description":description ])
     }
     
+    func createLunchbreak(host:String, joinedBy:[String], location:String,placeName:String,time:String, whatToEat:String){
+        firestore.collection("Lunchbreak").addDocument(data:["host":host, "joinedBy":joinedBy, "location":location,"placeName":placeName,"time":time, "whatToEat":whatToEat])
+    }
+    
     //MARK: - Edit DB Records
     func editUser(id:String,fName:String, lName:String, email:String, password:String,description:String){
         firestore.collection("User").document(id).updateData(["fName":fName, "lName":lName,  "email":email, "password": password,"descripton":description] )

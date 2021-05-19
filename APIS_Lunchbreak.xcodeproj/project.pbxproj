@@ -18,9 +18,7 @@
 		0B299D8F26532F08005A2B77 /* VCAddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B299D8E26532F08005A2B77 /* VCAddUserViewController.swift */; };
 		0B299D9C2653308A005A2B77 /* VCMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B299D9B2653308A005A2B77 /* VCMain.swift */; };
 		0B33D179265432C70006B132 /* Lunchbreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D178265432C70006B132 /* Lunchbreak.swift */; };
-		0B33D17C265433840006B132 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D17B265433840006B132 /* Places.swift */; };
 		0B33D181265440430006B132 /* VCCreateLunchbreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D180265440430006B132 /* VCCreateLunchbreak.swift */; };
-		0B33D184265441290006B132 /* VCAddNewPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D183265441290006B132 /* VCAddNewPlace.swift */; };
 		0B33D18A265441A70006B132 /* TVCViewLunchbreaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D189265441A70006B132 /* TVCViewLunchbreaks.swift */; };
 		0B33D18E2654420B0006B132 /* TVCAddFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33D18D2654420B0006B132 /* TVCAddFriends.swift */; };
 		0FA6E29B2654838800EC7133 /* RedHatDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2962654838800EC7133 /* RedHatDisplay-Black.ttf */; };
@@ -33,11 +31,11 @@
 		0FA6E2A8265488D700EC7133 /* intro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2A7265488D700EC7133 /* intro.jpeg */; };
 		0FA6E2AB265489CE00EC7133 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2AA265489CE00EC7133 /* logo.png */; };
 		0FA6E2AE26548A6400EC7133 /* Circular Std Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2AD26548A6400EC7133 /* Circular Std Bold.ttf */; };
+		0FA6E2BD2654978700EC7133 /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6E2BC2654978700EC7133 /* VCLogin.swift */; };
+		0FA6E2D926549D5700EC7133 /* VCSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6E2D826549D5700EC7133 /* VCSignUp.swift */; };
 		8DDEDA3D2654906900DA6D88 /* TableViewCellLunchB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */; };
 		8DDEDA55265498B200DA6D88 /* ViewControllerMyFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA54265498B200DA6D88 /* ViewControllerMyFriends.swift */; };
 		8DDEDA582654A32800DA6D88 /* ViewControllerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA572654A32800DA6D88 /* ViewControllerProfile.swift */; };
-		0FA6E2BD2654978700EC7133 /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6E2BC2654978700EC7133 /* VCLogin.swift */; };
-		0FA6E2D926549D5700EC7133 /* VCSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6E2D826549D5700EC7133 /* VCSignUp.swift */; };
 		FA36A10BE2B40D6C1FDADA60 /* Pods_APIS_Lunchbreak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CB008422EE73E32A3F3A87 /* Pods_APIS_Lunchbreak.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,9 +53,7 @@
 		0B299D8E26532F08005A2B77 /* VCAddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAddUserViewController.swift; sourceTree = "<group>"; };
 		0B299D9B2653308A005A2B77 /* VCMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMain.swift; sourceTree = "<group>"; };
 		0B33D178265432C70006B132 /* Lunchbreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunchbreak.swift; sourceTree = "<group>"; };
-		0B33D17B265433840006B132 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		0B33D180265440430006B132 /* VCCreateLunchbreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCreateLunchbreak.swift; sourceTree = "<group>"; };
-		0B33D183265441290006B132 /* VCAddNewPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAddNewPlace.swift; sourceTree = "<group>"; };
 		0B33D189265441A70006B132 /* TVCViewLunchbreaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCViewLunchbreaks.swift; sourceTree = "<group>"; };
 		0B33D18D2654420B0006B132 /* TVCAddFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCAddFriends.swift; sourceTree = "<group>"; };
 		0FA6E2962654838800EC7133 /* RedHatDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Black.ttf"; sourceTree = "<group>"; };
@@ -120,9 +116,6 @@
 				0B299CFB26531CA8005A2B77 /* AppDelegate.swift */,
 				0B299CFD26531CA8005A2B77 /* SceneDelegate.swift */,
 				0B299D0126531CA8005A2B77 /* Main.storyboard */,
-				8DDEDA572654A32800DA6D88 /* ViewControllerProfile.swift */,
-				8DDEDA54265498B200DA6D88 /* ViewControllerMyFriends.swift */,
-				8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */,
 				0B299D8D26532EE5005A2B77 /* Views */,
 				0B299D0426531CA9005A2B77 /* Assets.xcassets */,
 				0B299D0626531CA9005A2B77 /* LaunchScreen.storyboard */,
@@ -137,7 +130,6 @@
 			children = (
 				0B299D7026532831005A2B77 /* User.swift */,
 				0B33D178265432C70006B132 /* Lunchbreak.swift */,
-				0B33D17B265433840006B132 /* Places.swift */,
 			);
 			path = Modelo;
 			sourceTree = "<group>";
@@ -153,11 +145,13 @@
 		0B299D8D26532EE5005A2B77 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8DDEDA572654A32800DA6D88 /* ViewControllerProfile.swift */,
+				8DDEDA54265498B200DA6D88 /* ViewControllerMyFriends.swift */,
+				8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */,
 				0B299D8E26532F08005A2B77 /* VCAddUserViewController.swift */,
 				0FA6E2BC2654978700EC7133 /* VCLogin.swift */,
 				0B299D9B2653308A005A2B77 /* VCMain.swift */,
 				0B33D180265440430006B132 /* VCCreateLunchbreak.swift */,
-				0B33D183265441290006B132 /* VCAddNewPlace.swift */,
 				0B33D189265441A70006B132 /* TVCViewLunchbreaks.swift */,
 				0B33D18D2654420B0006B132 /* TVCAddFriends.swift */,
 				0FA6E2D826549D5700EC7133 /* VCSignUp.swift */,
@@ -337,7 +331,6 @@
 				0B33D179265432C70006B132 /* Lunchbreak.swift in Sources */,
 				0B33D18E2654420B0006B132 /* TVCAddFriends.swift in Sources */,
 				0B299D9C2653308A005A2B77 /* VCMain.swift in Sources */,
-				0B33D184265441290006B132 /* VCAddNewPlace.swift in Sources */,
 				0FA6E2BD2654978700EC7133 /* VCLogin.swift in Sources */,
 				0B299D7126532831005A2B77 /* User.swift in Sources */,
 				0B299D7526532881005A2B77 /* DatabaseManager.swift in Sources */,
@@ -347,7 +340,6 @@
 				0FA6E2D926549D5700EC7133 /* VCSignUp.swift in Sources */,
 				0B299CFE26531CA8005A2B77 /* SceneDelegate.swift in Sources */,
 				0B33D181265440430006B132 /* VCCreateLunchbreak.swift in Sources */,
-				0B33D17C265433840006B132 /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
