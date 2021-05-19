@@ -73,8 +73,9 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Sign In">
                                             <attributes>
-                                                <color key="NSColor" red="0.15686274509803921" green="0.16470588235294117" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="25"/>
+                                                <color key="NSBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="25" name="CircularStd-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -96,7 +97,7 @@
                                         <fragment content="New Account">
                                             <attributes>
                                                 <color key="NSColor" systemColor="systemBackgroundColor"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -400,7 +401,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Profile">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="40"/>
+                                            <font key="NSFont" size="40" name="RedHatDisplay-Black"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -413,7 +414,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Jason Smith">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <font key="NSFont" size="25" name="RedHatDisplay-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -426,7 +427,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="UX Designer">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="16"/>
+                                            <font key="NSFont" size="16" name="PublicSans-Thin_Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -478,7 +479,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Nombre">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                                <font key="NSFont" size="17" name="CircularStd-Medium"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -490,7 +491,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Time">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                                <font key="NSFont" size="17" name="CircularStd-Book"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -503,7 +504,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Want to eat">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                                <font key="NSFont" size="17" name="CircularStd-Book"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -516,7 +517,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Location">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                                <font key="NSFont" size="17" name="CircularStd-Book"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -529,7 +530,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Joined by">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                                <font key="NSFont" size="17" name="CircularStd-Book"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -548,7 +549,8 @@
                                                         <attributedString key="attributedTitle">
                                                             <fragment content="Join">
                                                                 <attributes>
-                                                                    <font key="NSFont" metaFont="system" size="18"/>
+                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                    <font key="NSFont" size="18" name="CircularStd-Book"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
@@ -560,7 +562,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Label">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                                <font key="NSFont" size="17" name="CircularStd-Book"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -572,7 +574,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Label">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                                <font key="NSFont" size="17" name="CircularStd-Book"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -584,7 +586,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Label">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                                <font key="NSFont" size="17" name="CircularStd-Book"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -596,7 +598,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="Label">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                                <font key="NSFont" size="17" name="CircularStd-Book"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -632,7 +634,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Add my Lunchbreak">
                                             <attributes>
-                                                <font key="NSFont" metaFont="system" size="20"/>
+                                                <font key="NSFont" size="20" name="CircularStd-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -732,8 +734,8 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Describe Yourself:">
                                         <attributes>
-                                            <color key="NSColor" red="0.97254901960784312" green="0.94901960784313721" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <color key="NSColor" red="0.99607843137254903" green="0.80392156862745101" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="CircularStd-Bold"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -885,8 +887,8 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Select your Favourite Foods:">
                                         <attributes>
-                                            <color key="NSColor" red="0.97254901960784312" green="0.94901960784313721" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <color key="NSColor" red="0.99607843137254903" green="0.80392156862745101" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="CircularStd-Bold"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -967,7 +969,7 @@
                                         <fragment content="Sign In">
                                             <attributes>
                                                 <color key="NSColor" red="0.15686274509803921" green="0.16470588235294117" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" metaFont="system" size="25"/>
+                                                <font key="NSFont" size="25" name="CircularStd-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1004,7 +1006,7 @@
                                         <fragment content="New Account">
                                             <attributes>
                                                 <color key="NSColor" systemColor="systemGray6Color"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <font key="NSFont" size="15" name="CircularStd-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -1026,8 +1028,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pVJ-zy-3MZ"/>
-        <segue reference="JFY-sQ-Eiz"/>
+        <segue reference="kFt-ii-g3Z"/>
+        <segue reference="bVg-vK-1t3"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="intro.jpeg" width="375" height="812"/>
