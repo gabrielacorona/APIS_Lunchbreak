@@ -8,38 +8,68 @@
 import UIKit
 
 class TVCViewLunchbreaks: UITableViewController {
-
+    var lunchbreaksDB = [Lunchbreak]()
+    var usersDB = [User]()
+    
+    var lbHosts : [String] = []
+    var hostNames : [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "All Lunchbreaks"
+        getInfo()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+    func getInfo(){
+        DatabaseManager.shared.getLunchbreaks{ (lunches) in
+            self.lunchbreaksDB = lunches
+            self.tableView.reloadData()
+            for l in lunches{
+                self.lbHosts.append(l.host)
+            }
+           
+        }
+        DatabaseManager.shared.getUsuarios{ (users) in
+            self.usersDB = users
+            for u in users{
+                if(self.lbHosts.contains(u.id)){
+                    let temp = u.fName + " " + u.lName
+                    self.hostNames.append(temp)
+                } 
+            }
+        }
+    }
+   
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return lunchbreaksDB.count
     }
+    
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let celda = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath)
+        //celda.textLabel?.text = lunchbreaksDB[indexPath.row].host
+        celda.detailTextLabel?.text = lunchbreaksDB[indexPath.row].location
+        //celda.textLabel?.text = hostNames[indexPath.row]
+        print(hostNames)
+        
 
-        // Configure the cell...
-
-        return cell
+        return celda
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
