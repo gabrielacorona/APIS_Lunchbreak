@@ -8,11 +8,12 @@
 import UIKit
 
 class ViewControllerProfile: UIViewController {
-
+    var currUser = User()
     @IBOutlet weak var lbOcupacion: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(currUser.fName)
 
         lbOcupacion.textColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 0.9)
     }

@@ -12,6 +12,9 @@ class customTableViewCell:UITableViewCell{
     @IBOutlet weak var favFoodslbl: UILabel!
     @IBOutlet weak var addFriendBtn: UIButton!
     
+    @IBAction func addFriendOnClick(_ sender: UIButton) {
+        
+    }
 }
 
 class TVCAddFriends: UITableViewController {
