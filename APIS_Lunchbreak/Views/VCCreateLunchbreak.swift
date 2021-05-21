@@ -10,11 +10,10 @@ import UIKit
 class VCCreateLunchbreak: UIViewController {
 
     @IBOutlet weak var tableViewJoin: UITableView!
-    @IBOutlet weak var location: UITextField!
-    @IBOutlet weak var typeOfFood: UITextField!
     @IBOutlet weak var time: UIDatePicker!
     @IBOutlet weak var createLunchbreak: UIButton!
     @IBOutlet weak var host: UITextField!
+    @IBOutlet weak var tfLocation: UITextField!
     
     @IBOutlet weak var btnItalian: SelectionButton!
     @IBOutlet weak var btnMexican: SelectionButton!
@@ -55,9 +54,9 @@ class VCCreateLunchbreak: UIViewController {
     }
 
     @IBAction func createNewLunchbreak(_ sender: Any) {
-        DatabaseManager.shared.createLunchbreak(host: host.text!, joinedBy: joinedBy, location: location.text!, placeName: "na", time: timeToString, whatToEat: getListFood())
+        DatabaseManager.shared.createLunchbreak(host: host.text!, joinedBy: joinedBy, location: tfLocation.text!, placeName: "na", time: timeToString, whatToEat: getListFood())
       
-        getListFood()
+        //getListFood() //q es esto bro
         let alert = UIAlertController(title: "Lunchbreak Created", message: "Lunchbreak Created Successfully.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
         }))

@@ -6,40 +6,56 @@
 //
 
 import UIKit
+class customTableViewCell:UITableViewCell{
+    @IBOutlet weak var namelbl: UILabel!
+    @IBOutlet weak var descriptionlbl: UILabel!
+    @IBOutlet weak var favFoodslbl: UILabel!
+    @IBOutlet weak var addFriendBtn: UIButton!
+    
+}
 
 class TVCAddFriends: UITableViewController {
-
+    var usersDB = [User]()
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Add Friends"
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        getInfo()
     }
 
+    func getInfo(){
+        DatabaseManager.shared.getUsuarios{ (users) in
+            self.usersDB = users
+            self.tableView.reloadData()
+        }
+    }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return usersDB.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let celda = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! customTableViewCell
+        celda.namelbl?.text = usersDB[indexPath.row].fName + " " + usersDB[indexPath.row].lName
+        celda.descriptionlbl?.text = usersDB[indexPath.row].description
+//        celda.favFoodslbl?.text = usersDB[indexPath.row].favFoods
 
-        // Configure the cell...
 
-        return cell
+        return celda
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
