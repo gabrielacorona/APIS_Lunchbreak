@@ -58,7 +58,7 @@ class DatabaseManager{
                 completion([])
             }
         }
-    }
+    }    
     
     //MARK: - Create DB Records
 

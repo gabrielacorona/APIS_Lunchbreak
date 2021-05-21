@@ -1165,29 +1165,29 @@
     </scenes>
     <designables>
         <designable name="IaW-4k-RKT">
-            <size key="intrinsicContentSize" width="42" height="33"/>
+            <size key="intrinsicContentSize" width="38" height="30"/>
         </designable>
         <designable name="WzE-65-1tk">
-            <size key="intrinsicContentSize" width="44" height="33"/>
+            <size key="intrinsicContentSize" width="39" height="30"/>
         </designable>
         <designable name="XPP-wh-l7b">
-            <size key="intrinsicContentSize" width="48" height="33"/>
+            <size key="intrinsicContentSize" width="43" height="30"/>
         </designable>
         <designable name="bCc-J9-PnE">
-            <size key="intrinsicContentSize" width="45" height="33"/>
+            <size key="intrinsicContentSize" width="41" height="30"/>
         </designable>
         <designable name="wyH-cE-w0A">
-            <size key="intrinsicContentSize" width="46" height="26"/>
+            <size key="intrinsicContentSize" width="47" height="27.333333333333332"/>
         </designable>
         <designable name="yRv-6f-IYk">
-            <size key="intrinsicContentSize" width="59" height="33"/>
+            <size key="intrinsicContentSize" width="53" height="30"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="pVJ-zy-3MZ"/>
         <segue reference="JFY-sQ-Eiz"/>
         <segue reference="obp-NR-IoP"/>
-        <segue reference="BSk-gg-duL"/>
+        <segue reference="RZT-xn-M3U"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="intro.jpeg" width="375" height="812"/>
