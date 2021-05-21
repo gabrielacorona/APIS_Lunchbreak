@@ -53,6 +53,16 @@ class VCCreateLunchbreak: UIViewController {
         timeToString = dateFormatter.string(from: time.date)
     }
 
+    @IBAction func timeInput(_ sender: UIDatePicker) {
+        print("print \(sender.date)")
+
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MMM dd, YYYY"
+        let somedateString = dateFormatter.string(from: sender.date)
+
+        print(somedateString)  // "somedateString" is your string date
+
+    }
     @IBAction func createNewLunchbreak(_ sender: Any) {
         DatabaseManager.shared.createLunchbreak(host: host.text!, joinedBy: joinedBy, location: tfLocation.text!, placeName: "na", time: timeToString, whatToEat: getListFood())
       
