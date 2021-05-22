@@ -7,16 +7,49 @@
 
 import UIKit
 
-class ViewControllerProfile: UIViewController {
+class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+    
+    var favPlaces = ["Pizza", "Sushi", "Dogos"]
 
+    @IBOutlet weak var lbNombre: UILabel!
     @IBOutlet weak var lbOcupacion: UILabel!
+    @IBOutlet weak var lbDescripcion: UILabel!
+    
+    @IBOutlet weak var btnMexican: SelectionButton!
+    @IBOutlet weak var btnItalian: SelectionButton!
+    @IBOutlet weak var btnVegan: SelectionButton!
+    @IBOutlet weak var btnAsian: SelectionButton!
+    @IBOutlet weak var btnHealthy: SelectionButton!
+    @IBOutlet weak var btnOther: SelectionButton!
+    
+    @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         lbOcupacion.textColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 0.9)
+        
+        lbDescripcion.text = "My name is Dustin, I’m a young designer from New York. I usually have my lunchbreak at lunch time and always looking forward to trying new places"
+        lbDescripcion.lineBreakMode = .byWordWrapping
+        lbDescripcion.sizeToFit()
+        
+        collectionView.dataSource = self
+        collectionView.delegate = self
     }
     
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return favPlaces.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "col", for: indexPath) as! CollectionViewCellFavoritePlaces
+        
+        cell.lbName.text = favPlaces[indexPath.row]
+        cell.lbCategory.text = favPlaces[indexPath.row]
+        cell.lbLocation.text = favPlaces[indexPath.row]
+        
+        return cell
+    }
 
     /*
     // MARK: - Navigation
