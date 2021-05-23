@@ -1024,7 +1024,7 @@
         <scene sceneID="aTc-VN-V4A">
             <objects>
                 <viewController id="GgT-9F-3sn" customClass="VCAddUserViewController" customModule="APIS_Lunchbreak" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9xG-Yy-VQd">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="9xG-Yy-VQd">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1032,25 +1032,21 @@
                                 <rect key="frame" x="79" y="80" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="intro.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="HRK-Yk-HBF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="HRK-Yk-HBF">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ecB-d7-fiN">
-                                <rect key="frame" x="35.785133086079441" y="271" width="318" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ecB-d7-fiN">
+                                <rect key="frame" x="35.666666666666657" y="271" width="318.66666666666674" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E8u-Ep-LHZ">
-                                <rect key="frame" x="35.785133086079441" y="329" width="318" height="34.000000000000227"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E8u-Ep-LHZ">
+                                <rect key="frame" x="35.666666666666657" y="329" width="318.66666666666674" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaD-dD-GKv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaD-dD-GKv">
                                 <rect key="frame" x="35" y="498" width="164" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Describe Yourself:">
                                         <attributes>
@@ -1061,139 +1057,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YcO-VO-TIy">
-                                <rect key="frame" x="35.785133086079441" y="526.99999999999977" width="318" height="34.000000000000455"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YcO-VO-TIy">
+                                <rect key="frame" x="35.666666666666657" y="527" width="318.66666666666674" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jQA-wH-Wbs">
-                                <rect key="frame" x="40" y="614" width="65" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Mexican">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O7g-4J-vTl">
-                                <rect key="frame" x="113" y="614" width="84" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Italian">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fn2-y0-xmh">
-                                <rect key="frame" x="189" y="614" width="101" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Korean">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q8h-UC-bFn">
-                                <rect key="frame" x="298" y="614" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Healthy">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lb0-Ev-JDB">
-                                <rect key="frame" x="33" y="652" width="80" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Vegetarian">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fg-pW-1lS">
-                                <rect key="frame" x="143" y="652" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Keto">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5I8-Eo-DXF">
-                                <rect key="frame" x="207" y="652" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Fast Food">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ECJ-gS-oJV">
-                                <rect key="frame" x="305" y="652" width="53" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Vegan">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VwI-42-Nr0">
-                                <rect key="frame" x="35.785133086079441" y="452.00000000000023" width="318" height="33.999999999999545"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VwI-42-Nr0">
+                                <rect key="frame" x="35.666666666666657" y="452" width="318.66666666666674" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IBE-qU-kYo">
-                                <rect key="frame" x="35.785133086079441" y="390" width="318" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IBE-qU-kYo">
+                                <rect key="frame" x="35.666666666666657" y="390" width="318.66666666666674" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5qy-s3-jUg">
-                                <rect key="frame" x="35.785133086079441" y="216" width="318" height="33.999999999999545"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5qy-s3-jUg">
+                                <rect key="frame" x="35.666666666666657" y="216" width="318.66666666666674" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
@@ -1201,9 +1081,8 @@
                                 <rect key="frame" x="79" y="80" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhb-GL-fk3">
-                                <rect key="frame" x="35" y="585" width="296" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhb-GL-fk3">
+                                <rect key="frame" x="35.000000000000014" y="585" width="218.33333333333337" height="20"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Select your Favourite Foods:">
                                         <attributes>
@@ -1214,9 +1093,8 @@
                                 </attributedString>
                                 <color key="highlightedColor" red="0.73693089119999999" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ya-sC-iXH">
-                                <rect key="frame" x="35.78513308608035" y="701" width="318" height="53.999999999999773"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ya-sC-iXH">
+                                <rect key="frame" x="35.666666666666657" y="701" width="318.66666666666674" height="31.666666666666629"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
@@ -1243,25 +1121,189 @@
                                     <segue destination="7oa-wX-BRp" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="N1K-3V-LGF"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Uvn-1P-fEh">
+                                <rect key="frame" x="36" y="613" width="318" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pC9-wv-YZF" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="96" height="30"/>
+                                        <state key="normal" title="Mexican"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Mexican"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Mexican"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorDeselected">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorSelected">
+                                                <color key="value" red="0.97686845064163208" green="0.93732023239135742" blue="0.92912548780441284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorDeselected">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorSelected">
+                                                <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAn-1U-XBh" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="111" y="0.0" width="96" height="30"/>
+                                        <state key="normal" title="Italian"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Italian"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Italian"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorDeselected">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorSelected">
+                                                <color key="value" red="0.97686845064163208" green="0.93732023239135742" blue="0.92912548780441284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorDeselected">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorSelected">
+                                                <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="148-5y-edu" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="222" y="0.0" width="96" height="30"/>
+                                        <state key="normal" title="Vegan"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Vegan"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Vegan"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorDeselected">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorSelected">
+                                                <color key="value" red="0.97686845064163208" green="0.93732023239135742" blue="0.92912548780441284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorDeselected">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorSelected">
+                                                <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="318" id="E34-JH-gtc"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bHL-MZ-sg7">
+                                <rect key="frame" x="36" y="651" width="318" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeF-ej-W3f" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="96" height="30"/>
+                                        <state key="normal" title="Asian"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Asian"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Asian"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorDeselected">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorSelected">
+                                                <color key="value" red="0.97686845064163208" green="0.93732023239135742" blue="0.92912548780441284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorDeselected">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorSelected">
+                                                <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIi-Wc-0Xg" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="111" y="0.0" width="96" height="30"/>
+                                        <state key="normal" title="Healthy"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Healthy"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Healthy"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorDeselected">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorSelected">
+                                                <color key="value" red="0.97686845064163208" green="0.93732023239135742" blue="0.92912548780441284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorDeselected">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorSelected">
+                                                <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKD-AA-wXH" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="222" y="0.0" width="96" height="30"/>
+                                        <state key="normal" title="Other"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Other"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Other"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorDeselected">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorSelected">
+                                                <color key="value" red="0.97686845064163208" green="0.93732023239135742" blue="0.92912548780441284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorDeselected">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorSelected">
+                                                <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="318" id="xn6-Zy-S6d"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jm4-Z1-qf7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HRK-Yk-HBF" firstAttribute="centerY" secondItem="9xG-Yy-VQd" secondAttribute="centerY" id="2BF-CD-Icx"/>
+                            <constraint firstItem="VwI-42-Nr0" firstAttribute="top" secondItem="IBE-qU-kYo" secondAttribute="bottom" constant="28.000000000000227" id="3Ke-7e-zwH"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="centerX" secondItem="IBE-qU-kYo" secondAttribute="centerX" id="3rx-dJ-U6q"/>
+                            <constraint firstItem="ecB-d7-fiN" firstAttribute="leading" secondItem="5qy-s3-jUg" secondAttribute="leading" id="4id-Z1-0Qj"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="centerX" secondItem="VwI-42-Nr0" secondAttribute="centerX" id="Bi8-C3-Rin"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="top" secondItem="lhb-GL-fk3" secondAttribute="bottom" constant="8" id="EYt-is-CMB"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="centerX" secondItem="ecB-d7-fiN" secondAttribute="centerX" id="Enx-uG-eeU"/>
+                            <constraint firstItem="NaD-dD-GKv" firstAttribute="leading" secondItem="Jm4-Z1-qf7" secondAttribute="leading" constant="35" id="I8a-NV-dmg"/>
+                            <constraint firstItem="IBE-qU-kYo" firstAttribute="leading" secondItem="Jm4-Z1-qf7" secondAttribute="leading" constant="35.785133086079441" id="ID5-7y-hog"/>
+                            <constraint firstItem="ecB-d7-fiN" firstAttribute="top" secondItem="5qy-s3-jUg" secondAttribute="bottom" constant="21" id="KTl-eb-N3j"/>
+                            <constraint firstItem="IBE-qU-kYo" firstAttribute="top" secondItem="9xG-Yy-VQd" secondAttribute="top" constant="390" id="KvU-mL-GFI"/>
+                            <constraint firstItem="HRK-Yk-HBF" firstAttribute="leading" secondItem="Jm4-Z1-qf7" secondAttribute="leading" id="KzB-3A-28N"/>
+                            <constraint firstItem="ecB-d7-fiN" firstAttribute="leading" secondItem="YcO-VO-TIy" secondAttribute="leading" id="Neq-yQ-tQg"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="centerX" secondItem="HRK-Yk-HBF" secondAttribute="centerX" id="R65-ts-RVm"/>
+                            <constraint firstItem="1ya-sC-iXH" firstAttribute="top" secondItem="bHL-MZ-sg7" secondAttribute="bottom" constant="20" id="SSk-DG-cIK"/>
+                            <constraint firstItem="ecB-d7-fiN" firstAttribute="leading" secondItem="Jm4-Z1-qf7" secondAttribute="leading" constant="35.666666666666657" id="V6K-4H-MAi"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="centerX" secondItem="9xG-Yy-VQd" secondAttribute="centerX" id="VzB-H2-aCx"/>
+                            <constraint firstItem="HRK-Yk-HBF" firstAttribute="top" secondItem="9xG-Yy-VQd" secondAttribute="topMargin" constant="-44" id="WpM-si-PPE"/>
+                            <constraint firstItem="IBE-qU-kYo" firstAttribute="top" secondItem="E8u-Ep-LHZ" secondAttribute="bottom" constant="26.999999999999773" id="Yp8-Lf-1e2"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="leading" secondItem="bHL-MZ-sg7" secondAttribute="leading" id="akv-zW-9xa"/>
+                            <constraint firstItem="NaD-dD-GKv" firstAttribute="leading" secondItem="lhb-GL-fk3" secondAttribute="leading" id="bIG-fJ-wt8"/>
+                            <constraint firstItem="Jm4-Z1-qf7" firstAttribute="trailing" secondItem="NaD-dD-GKv" secondAttribute="trailing" constant="191" id="dWK-Hu-I8i"/>
+                            <constraint firstItem="bHL-MZ-sg7" firstAttribute="top" secondItem="Uvn-1P-fEh" secondAttribute="bottom" constant="8" id="fNe-J8-YFb"/>
+                            <constraint firstItem="IBE-qU-kYo" firstAttribute="leading" secondItem="VwI-42-Nr0" secondAttribute="leading" id="fSu-vA-4Vn"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="centerX" secondItem="5qy-s3-jUg" secondAttribute="centerX" id="grl-ub-bWm"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="top" secondItem="9xG-Yy-VQd" secondAttribute="top" constant="613" id="hGY-mz-VXs"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="centerX" secondItem="E8u-Ep-LHZ" secondAttribute="centerX" id="hxA-Ow-w7r"/>
+                            <constraint firstItem="lhb-GL-fk3" firstAttribute="top" secondItem="YcO-VO-TIy" secondAttribute="bottom" constant="24" id="k3w-M0-QOn"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="centerX" secondItem="YcO-VO-TIy" secondAttribute="centerX" id="moC-np-oKb"/>
+                            <constraint firstItem="YcO-VO-TIy" firstAttribute="top" secondItem="NaD-dD-GKv" secondAttribute="bottom" constant="9" id="sWu-dl-Ce6"/>
+                            <constraint firstItem="IBE-qU-kYo" firstAttribute="leading" secondItem="E8u-Ep-LHZ" secondAttribute="leading" id="tSw-6N-790"/>
+                            <constraint firstItem="ecB-d7-fiN" firstAttribute="leading" secondItem="1ya-sC-iXH" secondAttribute="leading" id="uvH-YS-46F"/>
+                            <constraint firstItem="E8u-Ep-LHZ" firstAttribute="top" secondItem="ecB-d7-fiN" secondAttribute="bottom" constant="24" id="xed-Rq-KGC"/>
+                            <constraint firstItem="Uvn-1P-fEh" firstAttribute="centerX" secondItem="1ya-sC-iXH" secondAttribute="centerX" id="yPQ-Gp-tUT"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="VegetarianFood" destination="lb0-Ev-JDB" id="z4S-N1-AIP"/>
                         <outlet property="confirmPass" destination="VwI-42-Nr0" id="OMK-H5-MFC"/>
                         <outlet property="email" destination="E8u-Ep-LHZ" id="QQH-dz-paX"/>
                         <outlet property="fName" destination="5qy-s3-jUg" id="pZI-zz-wIj"/>
-                        <outlet property="fastFood" destination="5I8-Eo-DXF" id="5mV-d8-RNi"/>
-                        <outlet property="healthyFood" destination="Q8h-UC-bFn" id="Zic-5A-A9k"/>
-                        <outlet property="italianFood" destination="O7g-4J-vTl" id="Svn-me-i8Q"/>
-                        <outlet property="ketoFood" destination="4fg-pW-1lS" id="8YQ-ZY-9pE"/>
-                        <outlet property="koreanFood" destination="Fn2-y0-xmh" id="z4v-FS-EVt"/>
                         <outlet property="lName" destination="ecB-d7-fiN" id="Vq2-Wt-o82"/>
-                        <outlet property="mexicanFood" destination="jQA-wH-Wbs" id="MeZ-eY-lYm"/>
                         <outlet property="pass" destination="IBE-qU-kYo" id="psW-Kf-vNm"/>
                         <outlet property="tfDescription" destination="YcO-VO-TIy" id="Dr1-B3-CFs"/>
-                        <outlet property="veganFood" destination="ECJ-gS-oJV" id="aMb-56-L78"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ehl-iM-fJY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1354,8 +1396,14 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="148-5y-edu">
+            <size key="intrinsicContentSize" width="48" height="33"/>
+        </designable>
         <designable name="15G-jp-SsT">
             <size key="intrinsicContentSize" width="51" height="33"/>
+        </designable>
+        <designable name="AAn-1U-XBh">
+            <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="CGW-EX-6c6">
             <size key="intrinsicContentSize" width="51" height="33"/>
@@ -1378,8 +1426,17 @@
         <designable name="bCc-J9-PnE">
             <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
+        <designable name="bIi-Wc-0Xg">
+            <size key="intrinsicContentSize" width="59" height="33"/>
+        </designable>
         <designable name="c6q-Nc-Q0R">
             <size key="intrinsicContentSize" width="51" height="33"/>
+        </designable>
+        <designable name="mKD-AA-wXH">
+            <size key="intrinsicContentSize" width="44" height="33"/>
+        </designable>
+        <designable name="pC9-wv-YZF">
+            <size key="intrinsicContentSize" width="64" height="33"/>
         </designable>
         <designable name="usd-qj-3Di">
             <size key="intrinsicContentSize" width="51" height="33"/>
@@ -1390,10 +1447,13 @@
         <designable name="yRv-6f-IYk">
             <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
+        <designable name="yeF-ej-W3f">
+            <size key="intrinsicContentSize" width="42" height="33"/>
+        </designable>
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="kFt-ii-g3Z"/>
-        <segue reference="JFY-sQ-Eiz"/>
+        <segue reference="bVg-vK-1t3"/>
         <segue reference="Tft-yW-vSl"/>
         <segue reference="RZT-xn-M3U"/>
     </inferredMetricsTieBreakers>

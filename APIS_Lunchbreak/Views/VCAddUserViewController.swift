@@ -15,14 +15,6 @@ class VCAddUserViewController: UIViewController {
     @IBOutlet weak var pass: UITextField!
     @IBOutlet weak var confirmPass: UITextField!
     @IBOutlet weak var createUser: UIButton!
-    @IBOutlet weak var mexicanFood: UIButton!
-    @IBOutlet weak var koreanFood: UIButton!
-    @IBOutlet weak var italianFood: UIButton!
-    @IBOutlet weak var VegetarianFood: UIButton!
-    @IBOutlet weak var healthyFood: UIButton!
-    @IBOutlet weak var ketoFood: UIButton!
-    @IBOutlet weak var fastFood: UIButton!
-    @IBOutlet weak var veganFood: UIButton!
     @IBOutlet weak var tfDescription: UITextField!
     
     var favFoods:[String] = []
