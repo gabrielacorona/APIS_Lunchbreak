@@ -1382,6 +1382,9 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Mexican"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Mexican"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="YUG-5R-MHH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwC-ca-7kV" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="125" y="0.0" width="110" height="30"/>
@@ -1390,6 +1393,9 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Italian"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Italian"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="jgs-sJ-r3g"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mQ-OI-16i" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="250" y="0.0" width="110" height="30"/>
@@ -1398,6 +1404,9 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Vegan"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Vegan"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="N2X-zI-2X9"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -1414,6 +1423,9 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Asian"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Asian"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="zvz-aE-Q99"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-Xt-Cmf" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="125" y="0.0" width="110" height="30"/>
@@ -1422,6 +1434,9 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Healthy"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Healthy"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="yhi-Xq-qAx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1P-kn-kgM" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="250" y="0.0" width="110" height="30"/>
@@ -1430,12 +1445,32 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Other"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Other"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="OZA-cn-DRf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="360" id="TPJ-oc-1P1"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W0G-6b-i3i">
+                                <rect key="frame" x="34.920000637521298" y="324" width="317.99999999999989" height="54.000000000000284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Save">
+                                            <attributes>
+                                                <font key="NSFont" size="16" name="CircularStd-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="saveFavFoods:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="PxH-0L-WPi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GcW-xq-8Dp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1622,7 +1657,7 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="kFt-ii-g3Z"/>
+        <segue reference="pVJ-zy-3MZ"/>
         <segue reference="bVg-vK-1t3"/>
         <segue reference="Tft-yW-vSl"/>
         <segue reference="RZT-xn-M3U"/>

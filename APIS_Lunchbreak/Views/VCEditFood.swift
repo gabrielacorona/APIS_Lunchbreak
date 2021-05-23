@@ -23,6 +23,8 @@ class VCEditFood: UIViewController {
         assignBtnIds()
         // Do any additional setup after loading the view.
     }
+    var ogTrues : [Int] = [0,0,0,0,0,0]
+    var ogTrueIdx : [Int] = []
     
     func assignBtnIds(){
         var cont = 0
@@ -33,17 +35,26 @@ class VCEditFood: UIViewController {
                 i.layer.borderColor = .none
                 i.layer.borderWidth = 0
                 i.border.strokeColor = .none
+                ogTrues[cont] = -999
+                ogTrueIdx.append(cont)
             }
             cont += 1
         }
     }
-
+    
     @IBAction func selectFavFood(_ sender: SelectionButton) {
-        print(sender.id)
-        boolFood[sender.id] = boolFood[sender.id] ? false : true
-        print("fav foods", boolFood)
+        
+        if ogTrues[sender.id] == -999{
+            ogTrues[sender.id] = 0
+        } else {
+            print("entering", sender.id, boolFood[sender.id])
+            boolFood[sender.id] = boolFood[sender.id] ? false : true
+        }
     }
 
+    @IBAction func saveFavFoods(_ sender: Any) {
+        print("SAVING FOOD", boolFood)
+    }
     /*
     // MARK: - Navigation
 
