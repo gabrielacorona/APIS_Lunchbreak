@@ -57,7 +57,6 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
         }
     }
     
-    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return favPlaces.count
     }
