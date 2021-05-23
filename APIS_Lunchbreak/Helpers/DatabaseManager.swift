@@ -58,12 +58,12 @@ class DatabaseManager{
                 completion([])
             }
         }
-    }
+    }    
     
     //MARK: - Create DB Records
 
-    func createUser(fName:String, lName:String, email:String, password:String,description:String){
-        firestore.collection("User").addDocument(data:["fName":fName, "lName":lName,  "email":email, "password": password, "description":description ])
+    func createUser(fName:String, lName:String, email:String, password:String,description:String, phoneNum:String,favFoods:[Bool]){
+        firestore.collection("User").addDocument(data:["fName":fName, "lName":lName,  "email":email, "password": password, "description":description,"phoneNum":phoneNum,"favFoods":favFoods ])
     }
     
     func createLunchbreak(host:String, joinedBy:[String], location:String,placeName:String,time:String, whatToEat:String){

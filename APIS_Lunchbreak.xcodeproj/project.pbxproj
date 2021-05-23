@@ -34,6 +34,8 @@
 		0FA6E2AE26548A6400EC7133 /* Circular Std Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6E2AD26548A6400EC7133 /* Circular Std Bold.ttf */; };
 		0FA6E2BD2654978700EC7133 /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6E2BC2654978700EC7133 /* VCLogin.swift */; };
 		0FA6E2D926549D5700EC7133 /* VCSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6E2D826549D5700EC7133 /* VCSignUp.swift */; };
+		0FBEE284265A04E700C611F2 /* VCJoinLunchB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBEE283265A04E700C611F2 /* VCJoinLunchB.swift */; };
+		0FF09B6D2659EE0C00A5BC49 /* VCEditFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF09B6C2659EE0C00A5BC49 /* VCEditFood.swift */; };
 		8D19FC1F26586ED900523E89 /* CollectionViewCellFavoritePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19FC1E26586ED900523E89 /* CollectionViewCellFavoritePlaces.swift */; };
 		8D502EA0265A230600F92D50 /* Lugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D502E9F265A230600F92D50 /* Lugar.swift */; };
 		8D502EA3265A2B7100F92D50 /* ViewControllerFavoritePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D502EA2265A2B7100F92D50 /* ViewControllerFavoritePlaces.swift */; };
@@ -73,6 +75,8 @@
 		0FA6E2AD26548A6400EC7133 /* Circular Std Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circular Std Bold.ttf"; sourceTree = "<group>"; };
 		0FA6E2BC2654978700EC7133 /* VCLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLogin.swift; sourceTree = "<group>"; };
 		0FA6E2D826549D5700EC7133 /* VCSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSignUp.swift; sourceTree = "<group>"; };
+		0FBEE283265A04E700C611F2 /* VCJoinLunchB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCJoinLunchB.swift; sourceTree = "<group>"; };
+		0FF09B6C2659EE0C00A5BC49 /* VCEditFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCEditFood.swift; sourceTree = "<group>"; };
 		744AEEE3700BC57B4FB3FF97 /* Pods-APIS_Lunchbreak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIS_Lunchbreak.release.xcconfig"; path = "Target Support Files/Pods-APIS_Lunchbreak/Pods-APIS_Lunchbreak.release.xcconfig"; sourceTree = "<group>"; };
 		77CB008422EE73E32A3F3A87 /* Pods_APIS_Lunchbreak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIS_Lunchbreak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D19FC1E26586ED900523E89 /* CollectionViewCellFavoritePlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellFavoritePlaces.swift; sourceTree = "<group>"; };
@@ -156,10 +160,12 @@
 			children = (
 				8DDEDA572654A32800DA6D88 /* ViewControllerProfile.swift */,
 				8DDEDA54265498B200DA6D88 /* ViewControllerMyFriends.swift */,
+				0FF09B6C2659EE0C00A5BC49 /* VCEditFood.swift */,
 				8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */,
 				0B299D8E26532F08005A2B77 /* VCAddUserViewController.swift */,
 				0FA6E2BC2654978700EC7133 /* VCLogin.swift */,
 				0B299D9B2653308A005A2B77 /* VCMain.swift */,
+				0FBEE283265A04E700C611F2 /* VCJoinLunchB.swift */,
 				0B33D180265440430006B132 /* VCCreateLunchbreak.swift */,
 				0B33D189265441A70006B132 /* TVCViewLunchbreaks.swift */,
 				0B33D18D2654420B0006B132 /* TVCAddFriends.swift */,
@@ -339,6 +345,7 @@
 			files = (
 				0B299D8F26532F08005A2B77 /* VCAddUserViewController.swift in Sources */,
 				8DDEDA3D2654906900DA6D88 /* TableViewCellLunchB.swift in Sources */,
+				0FF09B6D2659EE0C00A5BC49 /* VCEditFood.swift in Sources */,
 				0F8CE1AF2655A6D600BFD66A /* SelectionButton.swift in Sources */,
 				8D19FC1F26586ED900523E89 /* CollectionViewCellFavoritePlaces.swift in Sources */,
 				0B33D18A265441A70006B132 /* TVCViewLunchbreaks.swift in Sources */,
@@ -352,6 +359,7 @@
 				8DDEDA582654A32800DA6D88 /* ViewControllerProfile.swift in Sources */,
 				0B299CFC26531CA8005A2B77 /* AppDelegate.swift in Sources */,
 				8DDEDA55265498B200DA6D88 /* ViewControllerMyFriends.swift in Sources */,
+				0FBEE284265A04E700C611F2 /* VCJoinLunchB.swift in Sources */,
 				0FA6E2D926549D5700EC7133 /* VCSignUp.swift in Sources */,
 				0B299CFE26531CA8005A2B77 /* SceneDelegate.swift in Sources */,
 				0B33D181265440430006B132 /* VCCreateLunchbreak.swift in Sources */,

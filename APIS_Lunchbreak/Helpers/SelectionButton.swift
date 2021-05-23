@@ -13,8 +13,12 @@ import UIKit
     // Allows developer to edit what colors are shown in each state
     @IBInspectable var borderColorSelected:UIColor = UIColor.purple
     @IBInspectable var borderColorDeselected:UIColor = UIColor.purple
+
+    @IBInspectable var backgroundColorSelected:UIColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)
+    @IBInspectable var backgroundColorDeselected:UIColor = UIColor.systemBlue
+
     
-    @IBInspectable var borderWidth:CGFloat = 2
+    @IBInspectable var borderWidth:CGFloat = 0
     @IBInspectable var cornerRadius:CGFloat = 10
     
     // The text that's shown in each state
@@ -23,14 +27,15 @@ import UIKit
     
     // The color of text shown in each state
     @IBInspectable var textColorDeselected:UIColor = UIColor.black
-    @IBInspectable var textColorSelected:UIColor = UIColor.white
+    @IBInspectable var textColorSelected:UIColor = UIColor.black
     
     // Sets the Active/Inactive State
     @IBInspectable var active:Bool = false
     
     // Custom Border to the UIButton
-    private let border = CAShapeLayer()
-
+    let border = CAShapeLayer()
+    var id : Int = -999
+    
     override func draw(_ rect: CGRect) {
         titleLabel?.font = UIFont(name: "Circular Std Book", size: 12)
         
@@ -44,6 +49,9 @@ import UIKit
         
         // Respond to touch events by user
         self.addTarget(self, action: #selector(onPress), for: .touchUpInside)
+    }
+    func setID(id: Int){
+        self.id = id
     }
     
     @objc func onPress() {
@@ -68,7 +76,7 @@ import UIKit
         clipsToBounds = true
         layer.borderColor = CGColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)
         layer.borderWidth = 1
-        backgroundColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)
+        backgroundColor = backgroundColorSelected
         tintColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)
     }
     
@@ -81,9 +89,9 @@ import UIKit
         layer.cornerRadius = frame.height/2
         clipsToBounds = true
         layer.borderColor = CGColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)
-        layer.borderColor = UIColor.darkGray.cgColor
-        layer.borderWidth = 2
-        backgroundColor = .none
+//        layer.borderColor = UIColor.darkGray.cgColor
+        layer.borderWidth = 1
+        backgroundColor = backgroundColorDeselected == UIColor.systemBlue ? .none : backgroundColorDeselected
         tintColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)
     }
 

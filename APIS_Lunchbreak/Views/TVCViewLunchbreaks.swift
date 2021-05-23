@@ -7,12 +7,16 @@
 
 import UIKit
 
+
+class UserInfo{
+    var id:String = ""
+}
+
 class TVCViewLunchbreaks: UITableViewController {
     var lunchbreaksDB = [Lunchbreak]()
     var usersDB = [User]()
-    
-    var lbHosts : [String] = []
-    var hostNames : [String] = []
+    var hostNames = [User]()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,19 +32,6 @@ class TVCViewLunchbreaks: UITableViewController {
         DatabaseManager.shared.getLunchbreaks{ (lunches) in
             self.lunchbreaksDB = lunches
             self.tableView.reloadData()
-            for l in lunches{
-                self.lbHosts.append(l.host)
-            }
-           
-        }
-        DatabaseManager.shared.getUsuarios{ (users) in
-            self.usersDB = users
-            for u in users{
-                if(self.lbHosts.contains(u.id)){
-                    let temp = u.fName + " " + u.lName
-                    self.hostNames.append(temp)
-                } 
-            }
         }
     }
    
@@ -61,9 +52,8 @@ class TVCViewLunchbreaks: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath)
-        //celda.textLabel?.text = lunchbreaksDB[indexPath.row].host
+        celda.textLabel?.text = lunchbreaksDB[indexPath.row].host
         celda.detailTextLabel?.text = lunchbreaksDB[indexPath.row].location
-        //celda.textLabel?.text = hostNames[indexPath.row]
         print(hostNames)
         
 

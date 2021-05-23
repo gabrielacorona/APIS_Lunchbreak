@@ -64,7 +64,7 @@ class VCCreateLunchbreak: UIViewController {
 
     }
     @IBAction func createNewLunchbreak(_ sender: Any) {
-        DatabaseManager.shared.createLunchbreak(host: host.text!, joinedBy: joinedBy, location: tfLocation.text!, placeName: "na", time: timeToString, whatToEat: getListFood())
+        DatabaseManager.shared.createLunchbreak(host: "", joinedBy: joinedBy, location: tfLocation.text!, placeName: "na", time: timeToString, whatToEat: getListFood())
       
         //getListFood() //q es esto bro
         let alert = UIAlertController(title: "Lunchbreak Created", message: "Lunchbreak Created Successfully.", preferredStyle: .alert)
