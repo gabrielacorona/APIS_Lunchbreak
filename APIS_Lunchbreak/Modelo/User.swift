@@ -15,8 +15,9 @@ class User:Codable{
     var email: String = ""
     var password: String = ""
     var description: String = ""
+    var phoneNum:String = ""
     
-    var favFoods:[String] = []
+    var favFoods:[Bool] = []
     var friends : [String] = []
     
 }
