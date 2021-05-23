@@ -1107,6 +1107,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="addUser:" destination="GgT-9F-3sn" eventType="touchUpInside" id="hKa-tF-f7X"/>
                                     <segue destination="u6C-Xu-onb" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="bVg-vK-1t3"/>
                                 </connections>
                             </button>
@@ -1143,6 +1144,9 @@
                                                 <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="GgT-9F-3sn" eventType="touchUpInside" id="Y4r-0l-z2p"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAn-1U-XBh" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="111" y="0.0" width="96" height="30"/>
@@ -1163,6 +1167,9 @@
                                                 <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="GgT-9F-3sn" eventType="touchUpInside" id="wCy-0k-fUC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="148-5y-edu" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="222" y="0.0" width="96" height="30"/>
@@ -1183,6 +1190,9 @@
                                                 <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="GgT-9F-3sn" eventType="touchUpInside" id="Fdf-4i-3Yy"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -1211,6 +1221,9 @@
                                                 <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="GgT-9F-3sn" eventType="touchUpInside" id="Rua-6E-3ot"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIi-Wc-0Xg" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="111" y="0.0" width="96" height="30"/>
@@ -1231,6 +1244,9 @@
                                                 <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="GgT-9F-3sn" eventType="touchUpInside" id="nZy-Z7-vQF"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKD-AA-wXH" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="222" y="0.0" width="96" height="30"/>
@@ -1251,6 +1267,9 @@
                                                 <color key="value" red="0.9830823541" green="0.35417860750000002" blue="0.26404413580000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectFavFood:" destination="GgT-9F-3sn" eventType="touchUpInside" id="1aC-R5-vgx"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -1298,6 +1317,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="btnAsian" destination="yeF-ej-W3f" id="K9Z-cQ-ZWW"/>
+                        <outlet property="btnHealthy" destination="bIi-Wc-0Xg" id="7D5-Jr-kXe"/>
+                        <outlet property="btnItalian" destination="AAn-1U-XBh" id="gRo-yu-2jy"/>
+                        <outlet property="btnMexican" destination="pC9-wv-YZF" id="8WG-pD-xzu"/>
+                        <outlet property="btnOther" destination="mKD-AA-wXH" id="Yt3-Oc-XwH"/>
+                        <outlet property="btnVegan" destination="148-5y-edu" id="oNA-te-fge"/>
                         <outlet property="confirmPass" destination="VwI-42-Nr0" id="OMK-H5-MFC"/>
                         <outlet property="email" destination="E8u-Ep-LHZ" id="QQH-dz-paX"/>
                         <outlet property="fName" destination="5qy-s3-jUg" id="pZI-zz-wIj"/>

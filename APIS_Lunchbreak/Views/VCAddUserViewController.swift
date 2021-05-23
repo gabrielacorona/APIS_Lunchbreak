@@ -16,12 +16,19 @@ class VCAddUserViewController: UIViewController {
     @IBOutlet weak var confirmPass: UITextField!
     @IBOutlet weak var createUser: UIButton!
     @IBOutlet weak var tfDescription: UITextField!
-    
-    var favFoods:[String] = []
+    @IBOutlet weak var btnMexican: SelectionButton!
+    @IBOutlet weak var btnItalian: SelectionButton!
+    @IBOutlet weak var btnVegan: SelectionButton!
+    @IBOutlet weak var btnAsian: SelectionButton!
+    @IBOutlet weak var btnOther: SelectionButton!
+    @IBOutlet weak var btnHealthy: SelectionButton!
+    var btnArray : [SelectionButton] = []
+    var favFoods: [Bool] = [false,false,false,false,false,false]
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Create User"
-
+        btnArray = [btnMexican, btnItalian, btnVegan, btnAsian,btnHealthy,btnOther]
+        assignBtnIds()
         // Do any additional setup after loading the view.
     }
     
@@ -40,6 +47,22 @@ class VCAddUserViewController: UIViewController {
         alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
         }))
         self.present(alert, animated: true, completion: nil)
+    }
+    
+    
+    @IBAction func selectFavFood(_ sender: SelectionButton) {
+        print(sender.id)
+        favFoods[sender.id] = favFoods[sender.id] ? false : true
+        print("fav foods", favFoods)
+    }
+    
+    func assignBtnIds(){
+        var cont = 0
+        for i in btnArray {
+            i.id = cont
+            print(cont)
+            cont += 1
+        }
     }
     
     /*
