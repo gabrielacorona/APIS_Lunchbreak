@@ -29,12 +29,13 @@ class VCEditFood: UIViewController {
         var cont = 0
         for i in btnArray {
             i.id = cont
-            if(boolFood[cont]){
-                i.setSelected()
+            if(!boolFood[cont]){
                 i.layer.borderColor = .none
                 i.layer.borderWidth = 0
                 i.border.strokeColor = .none
                 ogTrues[cont] = -999
+            }else{
+                i.setSelected()
             }
             cont += 1
         }

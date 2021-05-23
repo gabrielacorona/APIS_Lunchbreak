@@ -27,7 +27,7 @@ import UIKit
     
     // The color of text shown in each state
     @IBInspectable var textColorDeselected:UIColor = UIColor.black
-    @IBInspectable var textColorSelected:UIColor = UIColor.white
+    @IBInspectable var textColorSelected:UIColor = UIColor.black
     
     // Sets the Active/Inactive State
     @IBInspectable var active:Bool = false
@@ -89,7 +89,7 @@ import UIKit
         layer.cornerRadius = frame.height/2
         clipsToBounds = true
         layer.borderColor = CGColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)
-        layer.borderColor = UIColor.darkGray.cgColor
+//        layer.borderColor = UIColor.darkGray.cgColor
         layer.borderWidth = 1
         backgroundColor = backgroundColorDeselected == UIColor.systemBlue ? .none : backgroundColorDeselected
         tintColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)

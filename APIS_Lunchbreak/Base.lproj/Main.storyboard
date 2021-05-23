@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7oa-wX-BRp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="voG-2P-JyQ">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -10,86 +10,11 @@
     </dependencies>
     <scenes>
         <!--Main-->
-        <scene sceneID="ESg-mJ-MRF">
-            <objects>
-                <viewController id="7oa-wX-BRp" customClass="VCMain" customModule="APIS_Lunchbreak" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6qP-fS-ThX">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="intro.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="wZ2-x2-rjT">
-                                <rect key="frame" x="-49" y="0.0" width="488" height="844"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u1m-sQ-18s">
-                                <rect key="frame" x="35.259013423817123" y="562" width="318" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98823529409999999" green="0.94117647059999998" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Sign In">
-                                            <attributes>
-                                                <color key="NSColor" red="0.15686274509803921" green="0.16470588235294117" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="25" name="CircularStd-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="voG-2P-JyQ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Mgw-uO-u9i"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="5v9-xC-GMk">
-                                <rect key="frame" x="74.811079528445362" y="164" width="240.00000000000023" height="128.00000000000011"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d8W-P2-xYS">
-                                <rect key="frame" x="139.23326810735966" y="636" width="110.00000000000023" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="New Account">
-                                            <attributes>
-                                                <color key="NSColor" systemColor="systemBackgroundColor"/>
-                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="GgT-9F-3sn" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="pVJ-zy-3MZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0t-s2-CIa">
-                                <rect key="frame" x="64.24297158396007" y="674" width="261" height="71.000000000000171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="OyK-Ap-6MM"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="yXa-fO-mzv"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="RFV-9t-3lB"/>
-                    <connections>
-                        <outlet property="humilde" destination="D0t-s2-CIa" id="NUX-hB-O6a"/>
-                        <outlet property="newAcc" destination="d8W-P2-xYS" id="BmJ-Ge-jlV"/>
-                        <outlet property="signInBtn" destination="u1m-sQ-18s" id="OTw-L0-Yvq"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Icj-uO-jUb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2018.4615384615383" y="-574.4075829383886"/>
-        </scene>
-        <!--Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="VCMain" customModule="APIS_Lunchbreak" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's go gamers!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppx-d3-oOV">
@@ -299,7 +224,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createNewLunchbreak:" destination="yBN-64-4bM" eventType="touchUpInside" id="5pB-FY-TXm"/>
-                                    <segue destination="oPd-nF-jc0" kind="presentation" modalPresentationStyle="fullScreen" id="obp-NR-IoP"/>
+                                    <segue destination="oPd-nF-jc0" kind="show" id="obp-NR-IoP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wyH-cE-w0A" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
@@ -660,15 +585,26 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Mexican"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Mexican"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="NO"/>
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbM-Z0-6xE" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="125" y="0.0" width="110" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Italian"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Italian"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Italian"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15G-jp-SsT" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="250" y="0.0" width="110" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Vegan"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Vegan"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Vegan"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -677,15 +613,30 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAr-0y-Exh" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="110" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Asian"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Asian"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Asian"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGW-EX-6c6" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="125" y="0.0" width="110" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Healthy"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Healthy"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Healthy"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6q-Nc-Q0R" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="250" y="0.0" width="110" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Other"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Other"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Other"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -786,11 +737,11 @@
             <objects>
                 <viewController id="oPd-nF-jc0" customClass="ViewControllerMyFriends" customModule="APIS_Lunchbreak" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R8b-SA-CrR">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LoJ-yV-waf">
-                                <rect key="frame" x="0.0" y="94" width="390" height="587"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="626"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="celdaLunchB" rowHeight="201" id="9Gi-s4-JGv" customClass="TableViewCellLunchB" customModule="APIS_Lunchbreak" customModuleProvider="target">
@@ -875,7 +826,7 @@
                                                     <rect key="frame" x="310" y="25" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fbp-wH-4XH">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fbp-wH-4XH" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                                     <rect key="frame" x="300" y="149" width="70" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.86881965900000002" green="0.88048955299999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -889,6 +840,10 @@
                                                             </fragment>
                                                         </attributedString>
                                                     </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Join"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Join"/>
+                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <segue destination="znb-bf-Wlq" kind="show" id="hdV-Am-SeH"/>
                                                     </connections>
@@ -962,7 +917,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9IE-lA-76o">
-                                <rect key="frame" x="40" y="701" width="310" height="40"/>
+                                <rect key="frame" x="40" y="696" width="310" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.91764705879999997" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="NNx-zD-ge8"/>
@@ -982,7 +937,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWP-Eq-ggt">
-                                <rect key="frame" x="20" y="59" width="350" height="20"/>
+                                <rect key="frame" x="20" y="15" width="350" height="20"/>
                                 <attributedString key="attributedText">
                                     <fragment content="My Friends">
                                         <attributes>
@@ -1273,9 +1228,6 @@
                                 <state key="normal" title="back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <segue destination="7oa-wX-BRp" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="N1K-3V-LGF"/>
-                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Uvn-1P-fEh">
                                 <rect key="frame" x="36" y="613" width="318" height="30"/>
@@ -1518,6 +1470,7 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Mexican"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Mexican"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="YUG-5R-MHH"/>
@@ -1529,6 +1482,7 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Italian"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Italian"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="jgs-sJ-r3g"/>
@@ -1540,6 +1494,7 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Vegan"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Vegan"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="N2X-zI-2X9"/>
@@ -1559,6 +1514,7 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Asian"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Asian"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="zvz-aE-Q99"/>
@@ -1570,6 +1526,7 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Healthy"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Healthy"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="yhi-Xq-qAx"/>
@@ -1581,6 +1538,7 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Other"/>
                                             <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Other"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="selectFavFood:" destination="eV0-mu-Ahd" eventType="touchUpInside" id="OZA-cn-DRf"/>
@@ -1721,10 +1679,10 @@
     </scenes>
     <designables>
         <designable name="148-5y-edu">
-            <size key="intrinsicContentSize" width="48" height="33"/>
+            <size key="intrinsicContentSize" width="43" height="30"/>
         </designable>
         <designable name="15G-jp-SsT">
-            <size key="intrinsicContentSize" width="51" height="33"/>
+            <size key="intrinsicContentSize" width="48" height="33"/>
         </designable>
         <designable name="5rJ-X3-LWJ">
             <size key="intrinsicContentSize" width="64" height="33"/>
@@ -1733,13 +1691,13 @@
             <size key="intrinsicContentSize" width="48" height="33"/>
         </designable>
         <designable name="AAn-1U-XBh">
-            <size key="intrinsicContentSize" width="45" height="33"/>
+            <size key="intrinsicContentSize" width="41" height="30"/>
         </designable>
         <designable name="Bg5-Xt-Cmf">
             <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="CGW-EX-6c6">
-            <size key="intrinsicContentSize" width="51" height="33"/>
+            <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="D1P-kn-kgM">
             <size key="intrinsicContentSize" width="44" height="33"/>
@@ -1751,7 +1709,7 @@
             <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="VAr-0y-Exh">
-            <size key="intrinsicContentSize" width="51" height="33"/>
+            <size key="intrinsicContentSize" width="42" height="33"/>
         </designable>
         <designable name="WzE-65-1tk">
             <size key="intrinsicContentSize" width="44" height="33"/>
@@ -1760,7 +1718,7 @@
             <size key="intrinsicContentSize" width="48" height="33"/>
         </designable>
         <designable name="XbM-Z0-6xE">
-            <size key="intrinsicContentSize" width="51" height="33"/>
+            <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="YZv-TF-e9j">
             <size key="intrinsicContentSize" width="42" height="33"/>
@@ -1769,16 +1727,19 @@
             <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="bIi-Wc-0Xg">
-            <size key="intrinsicContentSize" width="59" height="33"/>
+            <size key="intrinsicContentSize" width="53" height="30"/>
         </designable>
         <designable name="c6q-Nc-Q0R">
-            <size key="intrinsicContentSize" width="51" height="33"/>
-        </designable>
-        <designable name="mKD-AA-wXH">
             <size key="intrinsicContentSize" width="44" height="33"/>
         </designable>
+        <designable name="fbp-wH-4XH">
+            <size key="intrinsicContentSize" width="34" height="33"/>
+        </designable>
+        <designable name="mKD-AA-wXH">
+            <size key="intrinsicContentSize" width="39" height="30"/>
+        </designable>
         <designable name="pC9-wv-YZF">
-            <size key="intrinsicContentSize" width="64" height="33"/>
+            <size key="intrinsicContentSize" width="57" height="30"/>
         </designable>
         <designable name="usd-qj-3Di">
             <size key="intrinsicContentSize" width="51" height="33"/>
@@ -1790,13 +1751,12 @@
             <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="yeF-ej-W3f">
-            <size key="intrinsicContentSize" width="42" height="33"/>
+            <size key="intrinsicContentSize" width="38" height="30"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="pVJ-zy-3MZ"/>
-        <segue reference="bVg-vK-1t3"/>
-        <segue reference="Tft-yW-vSl"/>
+        <segue reference="JFY-sQ-Eiz"/>
+        <segue reference="obp-NR-IoP"/>
         <segue reference="BSk-gg-duL"/>
     </inferredMetricsTieBreakers>
     <resources>
