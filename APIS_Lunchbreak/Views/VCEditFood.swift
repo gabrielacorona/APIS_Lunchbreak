@@ -24,7 +24,6 @@ class VCEditFood: UIViewController {
         // Do any additional setup after loading the view.
     }
     var ogTrues : [Int] = [0,0,0,0,0,0]
-    var ogTrueIdx : [Int] = []
     
     func assignBtnIds(){
         var cont = 0
@@ -36,7 +35,6 @@ class VCEditFood: UIViewController {
                 i.layer.borderWidth = 0
                 i.border.strokeColor = .none
                 ogTrues[cont] = -999
-                ogTrueIdx.append(cont)
             }
             cont += 1
         }

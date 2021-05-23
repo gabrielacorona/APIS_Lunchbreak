@@ -1584,7 +1584,7 @@
     </scenes>
     <designables>
         <designable name="148-5y-edu">
-            <size key="intrinsicContentSize" width="48" height="33"/>
+            <size key="intrinsicContentSize" width="43" height="30"/>
         </designable>
         <designable name="15G-jp-SsT">
             <size key="intrinsicContentSize" width="51" height="33"/>
@@ -1596,7 +1596,7 @@
             <size key="intrinsicContentSize" width="48" height="33"/>
         </designable>
         <designable name="AAn-1U-XBh">
-            <size key="intrinsicContentSize" width="45" height="33"/>
+            <size key="intrinsicContentSize" width="41" height="30"/>
         </designable>
         <designable name="Bg5-Xt-Cmf">
             <size key="intrinsicContentSize" width="59" height="33"/>
@@ -1632,16 +1632,16 @@
             <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="bIi-Wc-0Xg">
-            <size key="intrinsicContentSize" width="59" height="33"/>
+            <size key="intrinsicContentSize" width="53" height="30"/>
         </designable>
         <designable name="c6q-Nc-Q0R">
             <size key="intrinsicContentSize" width="51" height="33"/>
         </designable>
         <designable name="mKD-AA-wXH">
-            <size key="intrinsicContentSize" width="44" height="33"/>
+            <size key="intrinsicContentSize" width="39" height="30"/>
         </designable>
         <designable name="pC9-wv-YZF">
-            <size key="intrinsicContentSize" width="64" height="33"/>
+            <size key="intrinsicContentSize" width="57" height="30"/>
         </designable>
         <designable name="usd-qj-3Di">
             <size key="intrinsicContentSize" width="51" height="33"/>
@@ -1653,7 +1653,7 @@
             <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="yeF-ej-W3f">
-            <size key="intrinsicContentSize" width="42" height="33"/>
+            <size key="intrinsicContentSize" width="38" height="30"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>

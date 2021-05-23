@@ -18,7 +18,7 @@ import UIKit
     @IBInspectable var backgroundColorDeselected:UIColor = UIColor.systemBlue
 
     
-    @IBInspectable var borderWidth:CGFloat = 2
+    @IBInspectable var borderWidth:CGFloat = 0
     @IBInspectable var cornerRadius:CGFloat = 10
     
     // The text that's shown in each state
@@ -90,7 +90,7 @@ import UIKit
         clipsToBounds = true
         layer.borderColor = CGColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)
         layer.borderColor = UIColor.darkGray.cgColor
-        layer.borderWidth = 2
+        layer.borderWidth = 1
         backgroundColor = backgroundColorDeselected == UIColor.systemBlue ? .none : backgroundColorDeselected
         tintColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)
     }

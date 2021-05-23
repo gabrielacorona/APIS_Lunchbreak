@@ -24,6 +24,8 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
     @IBOutlet weak var btnOther: SelectionButton!
     
     @IBOutlet weak var collectionView: UICollectionView!
+    var arrayBtns : [SelectionButton] = []
+    var boolFood : [Bool] = [true, true, false, false, true, false]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +39,24 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
         
         collectionView.dataSource = self
         collectionView.delegate = self
+        arrayBtns = [btnMexican, btnItalian, btnVegan, btnAsian, btnHealthy, btnOther]
+        setUpFavFoods()
     }
+    
+    func setUpFavFoods(){
+        arrayBtns = [btnMexican, btnItalian, btnVegan, btnAsian, btnHealthy, btnOther]
+        var cont = 0
+        while(cont < arrayBtns.count){
+            if(boolFood[cont]){
+                arrayBtns[cont].setSelected()
+            }else{
+                arrayBtns[cont].setDeselected()
+            }
+            arrayBtns[cont].isEnabled = false
+            cont += 1
+        }
+    }
+    
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return favPlaces.count
