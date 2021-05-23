@@ -33,7 +33,7 @@ import UIKit
     @IBInspectable var active:Bool = false
     
     // Custom Border to the UIButton
-    private let border = CAShapeLayer()
+    let border = CAShapeLayer()
     var id : Int = -999
     
     override func draw(_ rect: CGRect) {

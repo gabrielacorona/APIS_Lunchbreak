@@ -490,7 +490,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFg-St-Rnt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="285" y="1209"/>
+            <point key="canvasLocation" x="38" y="1024"/>
         </scene>
         <!--Profile-->
         <scene sceneID="d8L-io-gez">
@@ -695,6 +695,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kPL-8B-uSB">
+                                <rect key="frame" x="345" y="352" width="30" height="29.333333333333314"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Edit">
+                                            <attributes>
+                                                <color key="NSColor" red="0.97486382719999998" green="0.31577372549999999" blue="0.23129531740000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="eV0-mu-Ahd" kind="show" id="7Bb-kE-p7Z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="f9K-93-Vtq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -707,11 +723,13 @@
                             <constraint firstItem="f9K-93-Vtq" firstAttribute="trailing" secondItem="5Nx-Jd-0OJ" secondAttribute="trailing" constant="15" id="5gz-Zg-gXS"/>
                             <constraint firstItem="Nug-wx-GtX" firstAttribute="top" secondItem="mEC-Je-UFQ" secondAttribute="bottom" constant="15" id="6Yw-If-C2P"/>
                             <constraint firstItem="f9K-93-Vtq" firstAttribute="trailing" secondItem="WHa-qc-nYy" secondAttribute="trailing" constant="15" id="6by-Xd-vTV"/>
+                            <constraint firstItem="f9K-93-Vtq" firstAttribute="trailing" secondItem="kPL-8B-uSB" secondAttribute="trailing" constant="15" id="89s-fY-KFQ"/>
                             <constraint firstItem="QWB-rN-f0A" firstAttribute="leading" secondItem="f9K-93-Vtq" secondAttribute="leading" constant="15" id="9XP-gJ-q2b"/>
                             <constraint firstItem="pGP-TH-cZf" firstAttribute="top" secondItem="A23-Ba-ThE" secondAttribute="bottom" constant="30" id="9ca-DN-lF0"/>
                             <constraint firstItem="A23-Ba-ThE" firstAttribute="top" secondItem="5Nx-Jd-0OJ" secondAttribute="bottom" constant="15" id="CNJ-ba-WgC"/>
                             <constraint firstItem="WHa-qc-nYy" firstAttribute="leading" secondItem="f9K-93-Vtq" secondAttribute="leading" constant="15" id="Gvl-jc-A5d"/>
                             <constraint firstItem="f9K-93-Vtq" firstAttribute="trailing" secondItem="pGP-TH-cZf" secondAttribute="trailing" constant="15" id="MlL-7t-0Yh"/>
+                            <constraint firstItem="kPL-8B-uSB" firstAttribute="top" secondItem="Nug-wx-GtX" secondAttribute="bottom" constant="29" id="Mp0-xK-Fqj"/>
                             <constraint firstItem="f9K-93-Vtq" firstAttribute="trailing" secondItem="mEC-Je-UFQ" secondAttribute="trailing" constant="15" id="Nyv-zB-5w0"/>
                             <constraint firstItem="A23-Ba-ThE" firstAttribute="leading" secondItem="f9K-93-Vtq" secondAttribute="leading" constant="15" id="RiM-Bv-gXY"/>
                             <constraint firstItem="Nug-wx-GtX" firstAttribute="leading" secondItem="f9K-93-Vtq" secondAttribute="leading" constant="15" id="TXm-rb-fZD"/>
@@ -1335,6 +1353,115 @@
             </objects>
             <point key="canvasLocation" x="-1155.3846153846152" y="-1361.3744075829384"/>
         </scene>
+        <!--Edit Food-->
+        <scene sceneID="999-ti-x13">
+            <objects>
+                <viewController id="eV0-mu-Ahd" customClass="VCEditFood" customModule="APIS_Lunchbreak" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7sx-bC-XVo">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNJ-51-KQo">
+                                <rect key="frame" x="15" y="92" width="360" height="42"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Edit Favorite Foods">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="RedHatDisplay-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="FPV-1d-a4h">
+                                <rect key="frame" x="15" y="177" width="360" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rJ-X3-LWJ" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="30"/>
+                                        <state key="normal" title="Mexican"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Mexican"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Mexican"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwC-ca-7kV" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="125" y="0.0" width="110" height="30"/>
+                                        <state key="normal" title="Italian"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Italian"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Italian"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mQ-OI-16i" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="250" y="0.0" width="110" height="30"/>
+                                        <state key="normal" title="Vegan"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Vegan"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Vegan"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="Jnl-bR-FHa"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="IN0-9f-veE">
+                                <rect key="frame" x="15" y="222" width="360" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZv-TF-e9j" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="30"/>
+                                        <state key="normal" title="Asian"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Asian"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Asian"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-Xt-Cmf" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="125" y="0.0" width="110" height="30"/>
+                                        <state key="normal" title="Healthy"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Healthy"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Healthy"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1P-kn-kgM" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
+                                        <rect key="frame" x="250" y="0.0" width="110" height="30"/>
+                                        <state key="normal" title="Other"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedText" value="Other"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="deselectedText" value="Other"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="TPJ-oc-1P1"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GcW-xq-8Dp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IN0-9f-veE" firstAttribute="top" secondItem="FPV-1d-a4h" secondAttribute="bottom" constant="15" id="5H8-Hu-agd"/>
+                            <constraint firstItem="IN0-9f-veE" firstAttribute="leading" secondItem="FPV-1d-a4h" secondAttribute="leading" id="KxF-s4-xcI"/>
+                            <constraint firstItem="IN0-9f-veE" firstAttribute="centerX" secondItem="7sx-bC-XVo" secondAttribute="centerX" id="Sph-pT-AeK"/>
+                            <constraint firstItem="gNJ-51-KQo" firstAttribute="top" secondItem="GcW-xq-8Dp" secondAttribute="top" constant="92" id="fxA-JK-Aa3"/>
+                            <constraint firstItem="IN0-9f-veE" firstAttribute="leading" secondItem="gNJ-51-KQo" secondAttribute="leading" id="qvq-26-xp1"/>
+                            <constraint firstItem="GcW-xq-8Dp" firstAttribute="bottom" secondItem="IN0-9f-veE" secondAttribute="bottom" constant="504" id="xuZ-6V-Fgy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gao-3E-rfR"/>
+                    <connections>
+                        <outlet property="btnAsian" destination="YZv-TF-e9j" id="6Bi-D6-6Vz"/>
+                        <outlet property="btnHealthy" destination="Bg5-Xt-Cmf" id="FUz-i2-juk"/>
+                        <outlet property="btnItalian" destination="NwC-ca-7kV" id="z3U-nf-9LY"/>
+                        <outlet property="btnMexican" destination="5rJ-X3-LWJ" id="fJW-SX-J3y"/>
+                        <outlet property="btnOther" destination="D1P-kn-kgM" id="bZe-VA-3CC"/>
+                        <outlet property="btnVegan" destination="6mQ-OI-16i" id="FVZ-X3-h0K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F9Q-qt-3Hh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1381.5384615384614" y="-270.14218009478674"/>
+        </scene>
         <!--Login-->
         <scene sceneID="xiT-qN-hao">
             <objects>
@@ -1427,14 +1554,29 @@
         <designable name="15G-jp-SsT">
             <size key="intrinsicContentSize" width="51" height="33"/>
         </designable>
+        <designable name="5rJ-X3-LWJ">
+            <size key="intrinsicContentSize" width="64" height="33"/>
+        </designable>
+        <designable name="6mQ-OI-16i">
+            <size key="intrinsicContentSize" width="48" height="33"/>
+        </designable>
         <designable name="AAn-1U-XBh">
             <size key="intrinsicContentSize" width="45" height="33"/>
+        </designable>
+        <designable name="Bg5-Xt-Cmf">
+            <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="CGW-EX-6c6">
             <size key="intrinsicContentSize" width="51" height="33"/>
         </designable>
+        <designable name="D1P-kn-kgM">
+            <size key="intrinsicContentSize" width="44" height="33"/>
+        </designable>
         <designable name="IaW-4k-RKT">
             <size key="intrinsicContentSize" width="42" height="33"/>
+        </designable>
+        <designable name="NwC-ca-7kV">
+            <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="VAr-0y-Exh">
             <size key="intrinsicContentSize" width="51" height="33"/>
@@ -1447,6 +1589,9 @@
         </designable>
         <designable name="XbM-Z0-6xE">
             <size key="intrinsicContentSize" width="51" height="33"/>
+        </designable>
+        <designable name="YZv-TF-e9j">
+            <size key="intrinsicContentSize" width="42" height="33"/>
         </designable>
         <designable name="bCc-J9-PnE">
             <size key="intrinsicContentSize" width="45" height="33"/>
