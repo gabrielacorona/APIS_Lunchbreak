@@ -12,6 +12,7 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
     var favPlaces = ["Pizza", "Sushi", "Dogos"]
 
     @IBOutlet weak var lbNombre: UILabel!
+    var currUser = User()
     @IBOutlet weak var lbOcupacion: UILabel!
     @IBOutlet weak var lbDescripcion: UILabel!
     
@@ -26,6 +27,7 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(currUser.fName)
 
         lbOcupacion.textColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 0.9)
         
