@@ -35,7 +35,7 @@ class VCAddUserViewController: UIViewController {
     @IBAction func addUser(_ sender: UIButton) {
     
         if pass.text == confirmPass.text {
-            DatabaseManager.shared.createUser(fName:fName.text!,lName:lName.text!, email:email.text!, password:pass.text!, description:tfDescription.text!)
+            DatabaseManager.shared.createUser(fName:fName.text!,lName:lName.text!, email:email.text!, password:pass.text!, description:tfDescription.text!,phoneNum:"888-888-8888", favFoods:[false,false,false,false,false,false])
         }else{
             let alert = UIAlertController(title: "Passwords Don't Match", message: "Passwords Don't Match, Please Verify", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in

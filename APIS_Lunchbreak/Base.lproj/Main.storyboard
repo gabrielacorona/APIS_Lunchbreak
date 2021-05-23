@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="voG-2P-JyQ">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -1682,73 +1682,46 @@
             <size key="intrinsicContentSize" width="43" height="30"/>
         </designable>
         <designable name="15G-jp-SsT">
-            <size key="intrinsicContentSize" width="48" height="33"/>
-        </designable>
-        <designable name="5rJ-X3-LWJ">
-            <size key="intrinsicContentSize" width="64" height="33"/>
-        </designable>
-        <designable name="6mQ-OI-16i">
-            <size key="intrinsicContentSize" width="48" height="33"/>
-        </designable>
-        <designable name="AAn-1U-XBh">
-            <size key="intrinsicContentSize" width="41" height="30"/>
-        </designable>
-        <designable name="Bg5-Xt-Cmf">
-            <size key="intrinsicContentSize" width="59" height="33"/>
+            <size key="intrinsicContentSize" width="46" height="30"/>
         </designable>
         <designable name="CGW-EX-6c6">
-            <size key="intrinsicContentSize" width="59" height="33"/>
-        </designable>
-        <designable name="D1P-kn-kgM">
-            <size key="intrinsicContentSize" width="44" height="33"/>
+            <size key="intrinsicContentSize" width="46" height="30"/>
         </designable>
         <designable name="IaW-4k-RKT">
-            <size key="intrinsicContentSize" width="42" height="33"/>
+            <size key="intrinsicContentSize" width="38" height="30"/>
         </designable>
         <designable name="NwC-ca-7kV">
             <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="VAr-0y-Exh">
-            <size key="intrinsicContentSize" width="42" height="33"/>
+            <size key="intrinsicContentSize" width="46" height="30"/>
         </designable>
         <designable name="WzE-65-1tk">
-            <size key="intrinsicContentSize" width="44" height="33"/>
+            <size key="intrinsicContentSize" width="39" height="30"/>
         </designable>
         <designable name="XPP-wh-l7b">
-            <size key="intrinsicContentSize" width="48" height="33"/>
+            <size key="intrinsicContentSize" width="43" height="30"/>
         </designable>
         <designable name="XbM-Z0-6xE">
-            <size key="intrinsicContentSize" width="45" height="33"/>
-        </designable>
-        <designable name="YZv-TF-e9j">
-            <size key="intrinsicContentSize" width="42" height="33"/>
+            <size key="intrinsicContentSize" width="46" height="30"/>
         </designable>
         <designable name="bCc-J9-PnE">
-            <size key="intrinsicContentSize" width="45" height="33"/>
+            <size key="intrinsicContentSize" width="41" height="30"/>
         </designable>
         <designable name="bIi-Wc-0Xg">
             <size key="intrinsicContentSize" width="53" height="30"/>
         </designable>
         <designable name="c6q-Nc-Q0R">
-            <size key="intrinsicContentSize" width="44" height="33"/>
-        </designable>
-        <designable name="fbp-wH-4XH">
-            <size key="intrinsicContentSize" width="34" height="33"/>
-        </designable>
-        <designable name="mKD-AA-wXH">
-            <size key="intrinsicContentSize" width="39" height="30"/>
-        </designable>
-        <designable name="pC9-wv-YZF">
-            <size key="intrinsicContentSize" width="57" height="30"/>
+            <size key="intrinsicContentSize" width="46" height="30"/>
         </designable>
         <designable name="usd-qj-3Di">
-            <size key="intrinsicContentSize" width="51" height="33"/>
+            <size key="intrinsicContentSize" width="46" height="30"/>
         </designable>
         <designable name="wyH-cE-w0A">
             <size key="intrinsicContentSize" width="46" height="26"/>
         </designable>
         <designable name="yRv-6f-IYk">
-            <size key="intrinsicContentSize" width="59" height="33"/>
+            <size key="intrinsicContentSize" width="53" height="30"/>
         </designable>
         <designable name="yeF-ej-W3f">
             <size key="intrinsicContentSize" width="38" height="30"/>
