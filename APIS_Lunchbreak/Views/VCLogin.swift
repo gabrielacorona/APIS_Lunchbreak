@@ -48,6 +48,7 @@ class VCLogin: UIViewController {
                     found = true
                     currUser = u
                 }
+                print(currUser)
             }
             if found == false{
                 let alert = UIAlertController(title: "User not found", message: "Incorrect credentials, try again or sign up", preferredStyle: .alert)
