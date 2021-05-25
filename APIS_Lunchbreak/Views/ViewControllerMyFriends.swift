@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewControllerMyFriends: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
+    var currUser = User()
     var listaAmigos = ["Caro", "Gaba", "Andres", "Pau", "Cati"]
     var coloresDisponibles = [
         UIColor(red: 30/255, green: 205/255, blue: 140/255, alpha: 1),
@@ -22,6 +22,11 @@ class ViewControllerMyFriends: UIViewController, UITableViewDataSource, UITableV
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      
+        
+        print("curr user myfriends")
+        print(currUser.fName)
+        
         
         btnAdd.layer.cornerRadius = 20
         btnAdd.layer.borderColor = CGColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 1)

@@ -19,5 +19,4 @@ class User:Codable{
     
     var favFoods:[Bool] = []
     var friends : [String] = []
-    
 }
