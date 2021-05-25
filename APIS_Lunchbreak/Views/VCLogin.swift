@@ -14,6 +14,8 @@ class VCLogin: UIViewController {
     @IBOutlet weak var email: UITextField!
     var usersDB = [User]()
     var currUser = User()
+    var userFound = false
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,15 +44,15 @@ class VCLogin: UIViewController {
             self.present(alert, animated: true, completion: nil)
            
         }else{
-            var found = false
+
             for u in usersDB{
                 if(u.email == email.text && u.password == password.text){
-                    found = true
+                    userFound = true
                     currUser = u
                 }
-                print(currUser)
+                print(currUser.fName)
             }
-            if found == false{
+            if userFound == false{
                 let alert = UIAlertController(title: "User not found", message: "Incorrect credentials, try again or sign up", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
                 }))
@@ -64,10 +66,11 @@ class VCLogin: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        let vistaHome = segue.destination as! ViewControllerProfile
-//        vistaHome.currUser = currUser
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        let vistaHome = segue.destination as! TabBarController
+        vistaHome.currUser = currUser
+    }
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        return userFound
     }
     
 

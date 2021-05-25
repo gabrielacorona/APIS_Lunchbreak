@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0C8F99265ABDAC009C60B6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C8F98265ABDAC009C60B6 /* TabBarController.swift */; };
 		0B299CFC26531CA8005A2B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B299CFB26531CA8005A2B77 /* AppDelegate.swift */; };
 		0B299CFE26531CA8005A2B77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B299CFD26531CA8005A2B77 /* SceneDelegate.swift */; };
 		0B299D0326531CA8005A2B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B299D0126531CA8005A2B77 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0C8F98265ABDAC009C60B6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		0B299CF826531CA8005A2B77 /* APIS_Lunchbreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIS_Lunchbreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B299CFB26531CA8005A2B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B299CFD26531CA8005A2B77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				0FA6E2D826549D5700EC7133 /* VCSignUp.swift */,
 				0F8CE1AE2655A6D600BFD66A /* SelectionButton.swift */,
 				8D19FC1E26586ED900523E89 /* CollectionViewCellFavoritePlaces.swift */,
+				0B0C8F98265ABDAC009C60B6 /* TabBarController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				0B299D7126532831005A2B77 /* User.swift in Sources */,
 				0B299D7526532881005A2B77 /* DatabaseManager.swift in Sources */,
 				8DDEDA582654A32800DA6D88 /* ViewControllerProfile.swift in Sources */,
+				0B0C8F99265ABDAC009C60B6 /* TabBarController.swift in Sources */,
 				0B299CFC26531CA8005A2B77 /* AppDelegate.swift in Sources */,
 				8DDEDA55265498B200DA6D88 /* ViewControllerMyFriends.swift in Sources */,
 				0FBEE284265A04E700C611F2 /* VCJoinLunchB.swift in Sources */,

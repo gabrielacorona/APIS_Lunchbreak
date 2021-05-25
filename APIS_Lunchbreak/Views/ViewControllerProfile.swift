@@ -29,6 +29,11 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        
+        print("curr user profile")
         print(currUser.fName)
 
         lbOcupacion.textColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 0.9)
