@@ -11,6 +11,7 @@ import UIKit
 class User:Codable{
     var id:String = ""
     var fName: String = ""
+    var ocupation:String = ""
     var lName : String = ""
     var email: String = ""
     var password: String = ""
@@ -18,5 +19,10 @@ class User:Codable{
     var phoneNum:String = ""
     
     var favFoods:[Bool] = []
+    var favPlaces = [
+        ["description":"",
+        "name":"",
+        "typeFood":"italian"]
+    ]
     var friends : [String] = []
 }

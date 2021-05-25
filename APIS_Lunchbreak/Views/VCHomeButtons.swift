@@ -10,21 +10,30 @@ import UIKit
 class VCHomeButtons: UIViewController {
     var currUser = User()
 
+    @IBOutlet weak var viewFriendsLunchbreaks: UIButton!
+    @IBOutlet weak var viewProfile: UIButton!
+    @IBOutlet weak var userFname: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        userFname.text = currUser.fName
         // Do any additional setup after loading the view.
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
+        if var vistaProfile = segue.destination as? ViewControllerProfile {
+            vistaProfile.currUser = currUser
+        }else{
+            var vistaFriends = segue.destination as! ViewControllerMyFriends
+            vistaFriends.currUser = currUser
+        }
+       
     }
-    */
+    
 
 }

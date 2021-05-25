@@ -38,14 +38,14 @@ class ViewControllerMyFriends: UIViewController, UITableViewDataSource, UITableV
     
     // MARK: - Métodos de Data Source
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return listaAmigos.count
+        return currUser.friends.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "celdaLunchB") as! TableViewCellLunchB
         
-        cell.lbLuncherName.text = listaAmigos[indexPath.row]
+        cell.lbLuncherName.text = currUser.friends[indexPath.row]
         cell.leftBar.backgroundColor = coloresDisponibles[indexPath.row]
         cell.lbLuncherName.textColor = coloresDisponibles[indexPath.row]
         

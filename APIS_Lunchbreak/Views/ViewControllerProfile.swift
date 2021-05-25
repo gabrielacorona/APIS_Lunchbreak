@@ -8,9 +8,9 @@
 import UIKit
 
 class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, protocolAddPlace {
-    
+    var currUser = User()
     var favPlaces = [Lugar]()
-    let fvrPlaces = [
+    var fvrPlaces = [
         [
             "name": "Lucy",
             "description": "Johnson",
@@ -23,7 +23,7 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
         ]
     ]
     @IBOutlet weak var lbNombre: UILabel!
-    var currUser = User()
+    
     @IBOutlet weak var lbOcupacion: UILabel!
     @IBOutlet weak var lbDescripcion: UILabel!
     
@@ -40,16 +40,14 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        lbNombre.text = currUser.fName + " " + currUser.lName
+        boolFood = currUser.favFoods
+        fvrPlaces = currUser.favPlaces
         
         
-        
-        
-        print("curr user profile")
-        print(currUser.fName)
-
         lbOcupacion.textColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 0.9)
         
-        lbDescripcion.text = "My name is Dustin, I’m a young designer from New York. I usually have my lunchbreak at lunch time and always looking forward to trying new places"
+        lbDescripcion.text = currUser.description
         lbDescripcion.lineBreakMode = .byWordWrapping
         lbDescripcion.sizeToFit()
         

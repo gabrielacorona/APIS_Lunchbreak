@@ -1332,7 +1332,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaD-dD-GKv">
-                                <rect key="frame" x="35" y="498" width="164" height="20"/>
+                                <rect key="frame" x="35" y="494.66666666666669" width="164" height="21.666666666666686"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Describe Yourself:">
                                         <attributes>
@@ -1344,7 +1344,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YcO-VO-TIy">
-                                <rect key="frame" x="35.666666666666657" y="527" width="318.66666666666674" height="34"/>
+                                <rect key="frame" x="35.666666666666657" y="525.33333333333337" width="318.66666666666674" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
@@ -1368,7 +1368,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhb-GL-fk3">
-                                <rect key="frame" x="35.000000000000014" y="585" width="218.33333333333337" height="20"/>
+                                <rect key="frame" x="35" y="583.33333333333337" width="224" height="21.666666666666629"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Select your Favourite Foods:">
                                         <attributes>
@@ -1380,7 +1380,7 @@
                                 <color key="highlightedColor" red="0.73693089119999999" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ya-sC-iXH">
-                                <rect key="frame" x="35.666666666666657" y="701" width="318.66666666666674" height="31.666666666666629"/>
+                                <rect key="frame" x="35.666666666666657" y="701" width="318.66666666666674" height="33.666666666666629"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
@@ -1852,11 +1852,11 @@
             </objects>
             <point key="canvasLocation" x="-1985" y="-636"/>
         </scene>
-        <!--View Controller-->
+        <!--Home Buttons-->
         <scene sceneID="85V-BQ-jzg">
             <objects>
-                <viewController id="PQ6-fL-TwM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wpB-au-mo7">
+                <viewController id="PQ6-fL-TwM" customClass="VCHomeButtons" customModule="APIS_Lunchbreak" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wpB-au-mo7" customClass="VCH">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1876,98 +1876,117 @@
                                     <segue destination="At1-Jc-atK" kind="show" id="Esi-sb-K15"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgA-8H-REc">
+                                <rect key="frame" x="16" y="76" width="155" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVQ-EV-iNM">
+                                <rect key="frame" x="143" y="127" width="153" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ipM-WT-hhT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="djg-Ii-IzE"/>
+                    <connections>
+                        <outlet property="userFname" destination="iVQ-EV-iNM" id="ISE-Uh-8FL"/>
+                        <outlet property="viewFriendsLunchbreaks" destination="Tyq-q0-11P" id="Zs5-F3-iSm"/>
+                        <outlet property="viewProfile" destination="5T0-th-IeB" id="1n7-cS-iKp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ko7-ho-cIq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-752" y="-612"/>
+            <point key="canvasLocation" x="-752.30769230769226" y="-612.08530805687201"/>
         </scene>
     </scenes>
     <designables>
         <designable name="148-5y-edu">
-            <size key="intrinsicContentSize" width="43" height="30"/>
+            <size key="intrinsicContentSize" width="34" height="28"/>
         </designable>
         <designable name="15G-jp-SsT">
-            <size key="intrinsicContentSize" width="43" height="30"/>
+            <size key="intrinsicContentSize" width="34" height="28"/>
         </designable>
         <designable name="5rJ-X3-LWJ">
-            <size key="intrinsicContentSize" width="57" height="30"/>
+            <size key="intrinsicContentSize" width="47" height="28"/>
         </designable>
         <designable name="6mQ-OI-16i">
-            <size key="intrinsicContentSize" width="43" height="30"/>
+            <size key="intrinsicContentSize" width="34" height="28"/>
         </designable>
         <designable name="AAn-1U-XBh">
-            <size key="intrinsicContentSize" width="41" height="30"/>
+            <size key="intrinsicContentSize" width="33" height="28"/>
         </designable>
         <designable name="Bg5-Xt-Cmf">
-            <size key="intrinsicContentSize" width="53" height="30"/>
+            <size key="intrinsicContentSize" width="42" height="28"/>
         </designable>
         <designable name="CGW-EX-6c6">
-            <size key="intrinsicContentSize" width="53" height="30"/>
+            <size key="intrinsicContentSize" width="42" height="28"/>
         </designable>
         <designable name="D1P-kn-kgM">
-            <size key="intrinsicContentSize" width="39" height="30"/>
+            <size key="intrinsicContentSize" width="32" height="28"/>
         </designable>
         <designable name="IaW-4k-RKT">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="30" height="28"/>
         </designable>
         <designable name="NwC-ca-7kV">
-            <size key="intrinsicContentSize" width="41" height="30"/>
+            <size key="intrinsicContentSize" width="33" height="28"/>
         </designable>
         <designable name="VAr-0y-Exh">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="30" height="28"/>
         </designable>
         <designable name="WzE-65-1tk">
-            <size key="intrinsicContentSize" width="39" height="30"/>
+            <size key="intrinsicContentSize" width="32" height="28"/>
         </designable>
         <designable name="XPP-wh-l7b">
-            <size key="intrinsicContentSize" width="43" height="30"/>
+            <size key="intrinsicContentSize" width="34" height="28"/>
         </designable>
         <designable name="XbM-Z0-6xE">
-            <size key="intrinsicContentSize" width="41" height="30"/>
+            <size key="intrinsicContentSize" width="33" height="28"/>
         </designable>
         <designable name="YZv-TF-e9j">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="30" height="28"/>
         </designable>
         <designable name="bCc-J9-PnE">
-            <size key="intrinsicContentSize" width="41" height="30"/>
+            <size key="intrinsicContentSize" width="33" height="28"/>
         </designable>
         <designable name="bIi-Wc-0Xg">
-            <size key="intrinsicContentSize" width="53" height="30"/>
+            <size key="intrinsicContentSize" width="42" height="28"/>
         </designable>
         <designable name="c6q-Nc-Q0R">
-            <size key="intrinsicContentSize" width="39" height="30"/>
+            <size key="intrinsicContentSize" width="32" height="28"/>
         </designable>
         <designable name="fbp-wH-4XH">
-            <size key="intrinsicContentSize" width="34" height="33"/>
+            <size key="intrinsicContentSize" width="35" height="34.666666666666664"/>
         </designable>
         <designable name="mKD-AA-wXH">
-            <size key="intrinsicContentSize" width="39" height="30"/>
+            <size key="intrinsicContentSize" width="32" height="28"/>
         </designable>
         <designable name="pC9-wv-YZF">
-            <size key="intrinsicContentSize" width="57" height="30"/>
+            <size key="intrinsicContentSize" width="47" height="28"/>
         </designable>
         <designable name="usd-qj-3Di">
-            <size key="intrinsicContentSize" width="46" height="30"/>
+            <size key="intrinsicContentSize" width="36" height="28"/>
         </designable>
         <designable name="wyH-cE-w0A">
-            <size key="intrinsicContentSize" width="46" height="26"/>
+            <size key="intrinsicContentSize" width="47" height="27.333333333333332"/>
         </designable>
         <designable name="yRv-6f-IYk">
-            <size key="intrinsicContentSize" width="53" height="30"/>
+            <size key="intrinsicContentSize" width="42" height="28"/>
         </designable>
         <designable name="yeF-ej-W3f">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="30" height="28"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="752-gT-fCG"/>
         <segue reference="ia6-hU-oVP"/>
-        <segue reference="RZT-xn-M3U"/>
+        <segue reference="BSk-gg-duL"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="intro.jpeg" width="375" height="812"/>
