@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="voG-2P-JyQ">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -613,11 +613,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGP-TH-cZf">
-
-                                <rect key="frame" x="15" y="496.33333333333331" width="190" height="29.999999999999943"/>
-
-                                <rect key="frame" x="15" y="496.33333333333331" width="360" height="23.333333333333314"/>
-
+                                <rect key="frame" x="15" y="496.33333333333331" width="170.33333333333334" height="29.999999999999943"/>
                                 <attributedString key="attributedText">
                                     <fragment content="My Favorite Places">
                                         <attributes>
@@ -641,11 +637,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nVZ-SZ-0F6">
-
                                 <rect key="frame" x="15" y="541.33333333333337" width="360" height="128"/>
-
-                                <rect key="frame" x="15" y="534.66666666666663" width="360" height="128"/>
-
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="8ah-ec-3oc"/>
@@ -664,76 +656,89 @@
                                             <rect key="frame" x="0.0" y="0.0" width="159" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ck-hs-Kb4">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBb-to-n9Z">
                                                     <rect key="frame" x="0.0" y="0.0" width="159" height="128"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Bu-s4-qt1">
+                                                            <rect key="frame" x="10" y="7.9999999999999982" width="139" height="20.333333333333329"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="20.329999999999998" id="hc8-0A-2lR"/>
+                                                            </constraints>
+                                                            <attributedString key="attributedText">
+                                                                <fragment content="Label">
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="0.99097615480000001" green="0.2761610746" blue="0.111935772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <font key="NSFont" size="17" name="CircularStd-Bold"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcP-ki-N8q">
+                                                            <rect key="frame" x="10" y="36.333333333333336" width="139" height="20.333333333333336"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="20.329999999999998" id="LdE-3f-63X"/>
+                                                            </constraints>
+                                                            <attributedString key="attributedText">
+                                                                <fragment content="Label">
+                                                                    <attributes>
+                                                                        <font key="NSFont" size="17" name="CircularStd-Book"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0K-6t-fkc">
+                                                            <rect key="frame" x="10" y="61.666666666666664" width="139" height="20.333333333333336"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="20.329999999999998" id="P1E-uc-BCC"/>
+                                                            </constraints>
+                                                            <attributedString key="attributedText">
+                                                                <fragment content="Label">
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="0.59854826226376423" green="0.61561918381288661" blue="0.60281599265104491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <font key="NSFont" size="17" name="CircularStd-Book"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="129" id="Eek-Wn-Nfv"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="159" id="21I-Nd-pmB"/>
+                                                        <constraint firstItem="1Bu-s4-qt1" firstAttribute="leading" secondItem="hBb-to-n9Z" secondAttribute="leading" constant="10" id="2DY-Ad-v6O"/>
+                                                        <constraint firstItem="AcP-ki-N8q" firstAttribute="leading" secondItem="hBb-to-n9Z" secondAttribute="leading" constant="10" id="7hw-wT-4Ln"/>
+                                                        <constraint firstItem="u0K-6t-fkc" firstAttribute="top" secondItem="AcP-ki-N8q" secondAttribute="bottom" constant="5" id="8nb-P9-ahC"/>
+                                                        <constraint firstItem="1Bu-s4-qt1" firstAttribute="top" secondItem="hBb-to-n9Z" secondAttribute="top" constant="8" id="9hz-lt-akG"/>
+                                                        <constraint firstAttribute="trailing" secondItem="1Bu-s4-qt1" secondAttribute="trailing" constant="10" id="CaN-yi-1CE"/>
+                                                        <constraint firstAttribute="height" constant="90" id="NkW-50-RGh"/>
+                                                        <constraint firstAttribute="width" constant="159" id="Zza-Ck-h0C"/>
+                                                        <constraint firstItem="AcP-ki-N8q" firstAttribute="top" secondItem="1Bu-s4-qt1" secondAttribute="bottom" constant="8" id="a0T-2n-HNe"/>
+                                                        <constraint firstItem="u0K-6t-fkc" firstAttribute="leading" secondItem="hBb-to-n9Z" secondAttribute="leading" constant="10" id="fuq-NX-2ND"/>
+                                                        <constraint firstAttribute="trailing" secondItem="u0K-6t-fkc" secondAttribute="trailing" constant="10" id="jQz-qP-lnK"/>
+                                                        <constraint firstAttribute="trailing" secondItem="AcP-ki-N8q" secondAttribute="trailing" constant="10" id="mee-gs-tl4"/>
+                                                        <constraint firstItem="u0K-6t-fkc" firstAttribute="top" secondItem="AcP-ki-N8q" secondAttribute="bottom" constant="5" id="q3H-Rq-v1A"/>
                                                     </constraints>
                                                 </view>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2P-2B-Vnu">
-                                                    <rect key="frame" x="15" y="10" width="129" height="21"/>
-                                                    <attributedString key="attributedText">
-                                                        <fragment content="Label">
-                                                            <attributes>
-                                                                <font key="NSFont" size="17" name="RedHatDisplay-Bold"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eO-Zs-FJj">
-                                                    <rect key="frame" x="15" y="97.333333333333329" width="129" height="20.666666666666671"/>
-                                                    <attributedString key="attributedText">
-                                                        <fragment content="Label">
-                                                            <attributes>
-                                                                <font key="NSFont" size="17" name="RedHatDisplay-Bold"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uma-My-RZc">
-                                                    <rect key="frame" x="15" y="54.000000000000007" width="129" height="20.333333333333336"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="20.333333333333314" id="W21-pZ-e2X"/>
-                                                    </constraints>
-                                                    <attributedString key="attributedText">
-                                                        <fragment content="Label">
-                                                            <attributes>
-                                                                <font key="NSFont" size="17" name="RedHatDisplay-Bold"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="uma-My-RZc" secondAttribute="trailing" constant="15" id="Cun-pr-azn"/>
-                                                <constraint firstAttribute="bottom" secondItem="5eO-Zs-FJj" secondAttribute="bottom" constant="10" id="GDG-c7-n77"/>
-                                                <constraint firstAttribute="trailing" secondItem="r2P-2B-Vnu" secondAttribute="trailing" constant="15" id="PBZ-cw-iMa"/>
-                                                <constraint firstAttribute="trailing" secondItem="5eO-Zs-FJj" secondAttribute="trailing" constant="15" id="VQJ-cF-jEG"/>
-                                                <constraint firstItem="uma-My-RZc" firstAttribute="top" secondItem="r2P-2B-Vnu" secondAttribute="bottom" constant="23" id="ZBK-vS-PSU"/>
-                                                <constraint firstAttribute="bottom" secondItem="3Ck-hs-Kb4" secondAttribute="bottom" id="ZDf-WG-9zn"/>
-                                                <constraint firstItem="uma-My-RZc" firstAttribute="leading" secondItem="FZy-tO-deI" secondAttribute="leading" constant="15" id="aup-Bf-mAV"/>
-                                                <constraint firstAttribute="trailing" secondItem="uma-My-RZc" secondAttribute="trailing" constant="15" id="b5o-KE-Oo7"/>
-                                                <constraint firstItem="uma-My-RZc" firstAttribute="leading" secondItem="FZy-tO-deI" secondAttribute="leading" constant="15" id="frZ-et-JM5"/>
-                                                <constraint firstAttribute="trailing" secondItem="3Ck-hs-Kb4" secondAttribute="trailing" id="fvc-tM-7sN"/>
-                                                <constraint firstItem="r2P-2B-Vnu" firstAttribute="leading" secondItem="FZy-tO-deI" secondAttribute="leading" constant="15" id="gzI-8o-4iG"/>
-                                                <constraint firstItem="3Ck-hs-Kb4" firstAttribute="top" secondItem="FZy-tO-deI" secondAttribute="top" id="hMQ-Qi-AwJ"/>
-                                                <constraint firstItem="5eO-Zs-FJj" firstAttribute="top" secondItem="uma-My-RZc" secondAttribute="bottom" constant="23" id="j2o-yh-Odr"/>
-                                                <constraint firstItem="3Ck-hs-Kb4" firstAttribute="leading" secondItem="FZy-tO-deI" secondAttribute="leading" id="jfH-X8-cLX"/>
-                                                <constraint firstItem="uma-My-RZc" firstAttribute="centerY" secondItem="FZy-tO-deI" secondAttribute="centerY" id="r5v-9L-AYK"/>
-                                                <constraint firstItem="r2P-2B-Vnu" firstAttribute="top" secondItem="FZy-tO-deI" secondAttribute="top" constant="10" id="tXu-Zm-FGI"/>
-                                                <constraint firstItem="5eO-Zs-FJj" firstAttribute="leading" secondItem="FZy-tO-deI" secondAttribute="leading" constant="15" id="yA9-j5-JV6"/>
+                                                <constraint firstAttribute="bottom" secondItem="hBb-to-n9Z" secondAttribute="bottom" id="2GJ-fT-7bL"/>
+                                                <constraint firstItem="hBb-to-n9Z" firstAttribute="leading" secondItem="FZy-tO-deI" secondAttribute="leading" id="QbC-Bd-bib"/>
+                                                <constraint firstItem="hBb-to-n9Z" firstAttribute="top" secondItem="FZy-tO-deI" secondAttribute="top" id="QxF-TJ-KUL"/>
+                                                <constraint firstAttribute="bottom" secondItem="hBb-to-n9Z" secondAttribute="bottom" id="Tg7-PN-J7P"/>
+                                                <constraint firstItem="hBb-to-n9Z" firstAttribute="leading" secondItem="FZy-tO-deI" secondAttribute="leading" id="j6v-H6-WJQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="hBb-to-n9Z" secondAttribute="trailing" id="pJ1-xn-NNI"/>
+                                                <constraint firstItem="hBb-to-n9Z" firstAttribute="top" secondItem="FZy-tO-deI" secondAttribute="top" id="txG-Lo-408"/>
+                                                <constraint firstAttribute="trailing" secondItem="hBb-to-n9Z" secondAttribute="trailing" id="zWP-Du-6rn"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="159" height="128"/>
                                         <connections>
-                                            <outlet property="lbCategory" destination="uma-My-RZc" id="ip0-F3-5Hg"/>
-                                            <outlet property="lbLocation" destination="5eO-Zs-FJj" id="8Y6-VW-L4G"/>
-                                            <outlet property="lbName" destination="r2P-2B-Vnu" id="MRS-8f-hTv"/>
-                                            <outlet property="viewCell" destination="3Ck-hs-Kb4" id="asi-um-mxw"/>
+                                            <outlet property="lbCategory" destination="AcP-ki-N8q" id="MYS-Nn-OQn"/>
+                                            <outlet property="lbLocation" destination="u0K-6t-fkc" id="xtj-Ac-rIt"/>
+                                            <outlet property="lbName" destination="1Bu-s4-qt1" id="S5M-cM-uev"/>
+                                            <outlet property="viewCell" destination="hBb-to-n9Z" id="vWq-X4-Tkc"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -808,17 +813,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgJ-ob-gfY">
-                                <rect key="frame" x="225" y="496.33333333333331" width="150" height="29.999999999999943"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zgJ-ob-gfY">
+                                <rect key="frame" x="205.33333333333337" y="496.33333333333331" width="169.66666666666663" height="29.999999999999943"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="bLe-bk-CXY"/>
-                                    <constraint firstAttribute="width" constant="150" id="neB-Jb-fjl"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="neB-Jb-fjl"/>
                                 </constraints>
-                                <state key="normal" title="Add Favorite Place"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Add Favorite Place">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99097615480000001" green="0.2761610746" blue="0.111935772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="CircularStd-Book"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <segue destination="ehg-UJ-tZv" kind="presentation" identifier="addFavPlace" modalPresentationStyle="fullScreen" id="cHR-Fj-gCC"/>
-
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kPL-8B-uSB">
                                 <rect key="frame" x="345" y="352" width="30" height="29.333333333333314"/>
                                 <state key="normal">
@@ -833,7 +847,6 @@
                                 </state>
                                 <connections>
                                     <segue destination="eV0-mu-Ahd" kind="show" id="7Bb-kE-p7Z"/>
-
                                 </connections>
                             </button>
                         </subviews>
@@ -849,22 +862,15 @@
                             <constraint firstItem="f9K-93-Vtq" firstAttribute="trailing" secondItem="5Nx-Jd-0OJ" secondAttribute="trailing" constant="15" id="5gz-Zg-gXS"/>
                             <constraint firstItem="Nug-wx-GtX" firstAttribute="top" secondItem="mEC-Je-UFQ" secondAttribute="bottom" constant="15" id="6Yw-If-C2P"/>
                             <constraint firstItem="f9K-93-Vtq" firstAttribute="trailing" secondItem="WHa-qc-nYy" secondAttribute="trailing" constant="15" id="6by-Xd-vTV"/>
-
-                            <constraint firstItem="pGP-TH-cZf" firstAttribute="leading" secondItem="f9K-93-Vtq" secondAttribute="leading" constant="15" id="9VN-78-9EU"/>
-
                             <constraint firstItem="f9K-93-Vtq" firstAttribute="trailing" secondItem="kPL-8B-uSB" secondAttribute="trailing" constant="15" id="89s-fY-KFQ"/>
-
+                            <constraint firstItem="pGP-TH-cZf" firstAttribute="leading" secondItem="f9K-93-Vtq" secondAttribute="leading" constant="15" id="9VN-78-9EU"/>
                             <constraint firstItem="QWB-rN-f0A" firstAttribute="leading" secondItem="f9K-93-Vtq" secondAttribute="leading" constant="15" id="9XP-gJ-q2b"/>
                             <constraint firstItem="pGP-TH-cZf" firstAttribute="top" secondItem="A23-Ba-ThE" secondAttribute="bottom" constant="30" id="9ca-DN-lF0"/>
                             <constraint firstItem="zgJ-ob-gfY" firstAttribute="leading" secondItem="pGP-TH-cZf" secondAttribute="trailing" constant="20" id="AYX-AW-dvy"/>
                             <constraint firstItem="A23-Ba-ThE" firstAttribute="top" secondItem="5Nx-Jd-0OJ" secondAttribute="bottom" constant="15" id="CNJ-ba-WgC"/>
                             <constraint firstItem="nVZ-SZ-0F6" firstAttribute="top" secondItem="pGP-TH-cZf" secondAttribute="bottom" constant="15" id="Cvo-bo-iNU"/>
                             <constraint firstItem="WHa-qc-nYy" firstAttribute="leading" secondItem="f9K-93-Vtq" secondAttribute="leading" constant="15" id="Gvl-jc-A5d"/>
-
-
-                            <constraint firstItem="f9K-93-Vtq" firstAttribute="trailing" secondItem="pGP-TH-cZf" secondAttribute="trailing" constant="15" id="MlL-7t-0Yh"/>
                             <constraint firstItem="kPL-8B-uSB" firstAttribute="top" secondItem="Nug-wx-GtX" secondAttribute="bottom" constant="29" id="Mp0-xK-Fqj"/>
-
                             <constraint firstItem="f9K-93-Vtq" firstAttribute="trailing" secondItem="mEC-Je-UFQ" secondAttribute="trailing" constant="15" id="Nyv-zB-5w0"/>
                             <constraint firstItem="A23-Ba-ThE" firstAttribute="leading" secondItem="f9K-93-Vtq" secondAttribute="leading" constant="15" id="RiM-Bv-gXY"/>
                             <constraint firstItem="Nug-wx-GtX" firstAttribute="leading" secondItem="f9K-93-Vtq" secondAttribute="leading" constant="15" id="TXm-rb-fZD"/>
@@ -1867,20 +1873,37 @@
     </scenes>
     <designables>
         <designable name="148-5y-edu">
-            <size key="intrinsicContentSize" width="43" height="30"/>
+            <size key="intrinsicContentSize" width="48" height="33"/>
         </designable>
         <designable name="15G-jp-SsT">
-
-            <size key="intrinsicContentSize" width="51" height="33"/>
+            <size key="intrinsicContentSize" width="48" height="33"/>
+        </designable>
+        <designable name="5rJ-X3-LWJ">
+            <size key="intrinsicContentSize" width="64" height="33"/>
+        </designable>
+        <designable name="6mQ-OI-16i">
+            <size key="intrinsicContentSize" width="48" height="33"/>
+        </designable>
+        <designable name="AAn-1U-XBh">
+            <size key="intrinsicContentSize" width="45" height="33"/>
+        </designable>
+        <designable name="Bg5-Xt-Cmf">
+            <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="CGW-EX-6c6">
-            <size key="intrinsicContentSize" width="51" height="33"/>
+            <size key="intrinsicContentSize" width="59" height="33"/>
+        </designable>
+        <designable name="D1P-kn-kgM">
+            <size key="intrinsicContentSize" width="44" height="33"/>
         </designable>
         <designable name="IaW-4k-RKT">
             <size key="intrinsicContentSize" width="42" height="33"/>
         </designable>
+        <designable name="NwC-ca-7kV">
+            <size key="intrinsicContentSize" width="45" height="33"/>
+        </designable>
         <designable name="VAr-0y-Exh">
-            <size key="intrinsicContentSize" width="51" height="33"/>
+            <size key="intrinsicContentSize" width="42" height="33"/>
         </designable>
         <designable name="WzE-65-1tk">
             <size key="intrinsicContentSize" width="44" height="33"/>
@@ -1889,65 +1912,40 @@
             <size key="intrinsicContentSize" width="48" height="33"/>
         </designable>
         <designable name="XbM-Z0-6xE">
-            <size key="intrinsicContentSize" width="51" height="33"/>
+            <size key="intrinsicContentSize" width="45" height="33"/>
+        </designable>
+        <designable name="YZv-TF-e9j">
+            <size key="intrinsicContentSize" width="42" height="33"/>
         </designable>
         <designable name="bCc-J9-PnE">
             <size key="intrinsicContentSize" width="45" height="33"/>
-        </designable>
-        <designable name="c6q-Nc-Q0R">
-            <size key="intrinsicContentSize" width="51" height="33"/>
-        </designable>
-        <designable name="usd-qj-3Di">
-            <size key="intrinsicContentSize" width="51" height="33"/>
-
-            <size key="intrinsicContentSize" width="46" height="30"/>
-        </designable>
-        <designable name="CGW-EX-6c6">
-            <size key="intrinsicContentSize" width="46" height="30"/>
-        </designable>
-        <designable name="IaW-4k-RKT">
-            <size key="intrinsicContentSize" width="38" height="30"/>
-        </designable>
-        <designable name="NwC-ca-7kV">
-            <size key="intrinsicContentSize" width="45" height="33"/>
-        </designable>
-        <designable name="VAr-0y-Exh">
-            <size key="intrinsicContentSize" width="46" height="30"/>
-        </designable>
-        <designable name="WzE-65-1tk">
-            <size key="intrinsicContentSize" width="39" height="30"/>
-        </designable>
-        <designable name="XPP-wh-l7b">
-            <size key="intrinsicContentSize" width="43" height="30"/>
-        </designable>
-        <designable name="XbM-Z0-6xE">
-            <size key="intrinsicContentSize" width="46" height="30"/>
-        </designable>
-        <designable name="bCc-J9-PnE">
-            <size key="intrinsicContentSize" width="41" height="30"/>
         </designable>
         <designable name="bIi-Wc-0Xg">
-            <size key="intrinsicContentSize" width="53" height="30"/>
+            <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="c6q-Nc-Q0R">
-            <size key="intrinsicContentSize" width="46" height="30"/>
+            <size key="intrinsicContentSize" width="44" height="33"/>
+        </designable>
+        <designable name="fbp-wH-4XH">
+            <size key="intrinsicContentSize" width="34" height="33"/>
+        </designable>
+        <designable name="mKD-AA-wXH">
+            <size key="intrinsicContentSize" width="44" height="33"/>
+        </designable>
+        <designable name="pC9-wv-YZF">
+            <size key="intrinsicContentSize" width="64" height="33"/>
         </designable>
         <designable name="usd-qj-3Di">
-            <size key="intrinsicContentSize" width="46" height="30"/>
-
+            <size key="intrinsicContentSize" width="51" height="33"/>
         </designable>
         <designable name="wyH-cE-w0A">
             <size key="intrinsicContentSize" width="46" height="26"/>
         </designable>
         <designable name="yRv-6f-IYk">
-
             <size key="intrinsicContentSize" width="59" height="33"/>
-
-            <size key="intrinsicContentSize" width="53" height="30"/>
         </designable>
         <designable name="yeF-ej-W3f">
-            <size key="intrinsicContentSize" width="38" height="30"/>
-
+            <size key="intrinsicContentSize" width="42" height="33"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
