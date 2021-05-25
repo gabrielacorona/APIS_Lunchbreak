@@ -10,7 +10,18 @@ import UIKit
 class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, protocolAddPlace {
     
     var favPlaces = [Lugar]()
-
+    let fvrPlaces = [
+        [
+            "name": "Lucy",
+            "description": "Johnson",
+            "typeFood": "Italiana"
+        ],
+        [
+            "name": "Jane",
+            "description": "Doe",
+            "typeFood": "Mexican"
+        ]
+    ]
     @IBOutlet weak var lbNombre: UILabel!
     var currUser = User()
     @IBOutlet weak var lbOcupacion: UILabel!
@@ -58,18 +69,16 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return favPlaces.count
+        //return favPlaces.count
+        return fvrPlaces.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "col", for: indexPath) as! CollectionViewCellFavoritePlaces
         
-        cell.lbName.text = favPlaces[indexPath.row].nombre
-        cell.lbName.textColor = .white
-        cell.lbCategory.text = favPlaces[indexPath.row].categoria
-        cell.lbCategory.textColor = .white
-        cell.lbLocation.text = favPlaces[indexPath.row].ubicacion
-        cell.lbLocation.textColor = .white
+        cell.lbName.text = fvrPlaces[indexPath.row]["name"]
+        cell.lbCategory.text = fvrPlaces[indexPath.row]["typeFood"]
+        cell.lbLocation.text = fvrPlaces[indexPath.row]["description"]
         
         return cell
     }
