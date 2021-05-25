@@ -38,6 +38,8 @@
 		0FBEE284265A04E700C611F2 /* VCJoinLunchB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBEE283265A04E700C611F2 /* VCJoinLunchB.swift */; };
 		0FF09B6D2659EE0C00A5BC49 /* VCEditFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF09B6C2659EE0C00A5BC49 /* VCEditFood.swift */; };
 		8D19FC1F26586ED900523E89 /* CollectionViewCellFavoritePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19FC1E26586ED900523E89 /* CollectionViewCellFavoritePlaces.swift */; };
+		8D502EA0265A230600F92D50 /* Lugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D502E9F265A230600F92D50 /* Lugar.swift */; };
+		8D502EA3265A2B7100F92D50 /* ViewControllerFavoritePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D502EA2265A2B7100F92D50 /* ViewControllerFavoritePlaces.swift */; };
 		8DDEDA3D2654906900DA6D88 /* TableViewCellLunchB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */; };
 		8DDEDA55265498B200DA6D88 /* ViewControllerMyFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA54265498B200DA6D88 /* ViewControllerMyFriends.swift */; };
 		8DDEDA582654A32800DA6D88 /* ViewControllerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEDA572654A32800DA6D88 /* ViewControllerProfile.swift */; };
@@ -80,6 +82,8 @@
 		744AEEE3700BC57B4FB3FF97 /* Pods-APIS_Lunchbreak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIS_Lunchbreak.release.xcconfig"; path = "Target Support Files/Pods-APIS_Lunchbreak/Pods-APIS_Lunchbreak.release.xcconfig"; sourceTree = "<group>"; };
 		77CB008422EE73E32A3F3A87 /* Pods_APIS_Lunchbreak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIS_Lunchbreak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D19FC1E26586ED900523E89 /* CollectionViewCellFavoritePlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellFavoritePlaces.swift; sourceTree = "<group>"; };
+		8D502E9F265A230600F92D50 /* Lugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lugar.swift; sourceTree = "<group>"; };
+		8D502EA2265A2B7100F92D50 /* ViewControllerFavoritePlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFavoritePlaces.swift; sourceTree = "<group>"; };
 		8DDEDA3C2654906900DA6D88 /* TableViewCellLunchB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellLunchB.swift; sourceTree = "<group>"; };
 		8DDEDA54265498B200DA6D88 /* ViewControllerMyFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMyFriends.swift; sourceTree = "<group>"; };
 		8DDEDA572654A32800DA6D88 /* ViewControllerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProfile.swift; sourceTree = "<group>"; };
@@ -140,6 +144,7 @@
 			children = (
 				0B299D7026532831005A2B77 /* User.swift */,
 				0B33D178265432C70006B132 /* Lunchbreak.swift */,
+				8D502E9F265A230600F92D50 /* Lugar.swift */,
 			);
 			path = Modelo;
 			sourceTree = "<group>";
@@ -169,7 +174,8 @@
 				0FA6E2D826549D5700EC7133 /* VCSignUp.swift */,
 				0F8CE1AE2655A6D600BFD66A /* SelectionButton.swift */,
 				8D19FC1E26586ED900523E89 /* CollectionViewCellFavoritePlaces.swift */,
-				0B0C8F98265ABDAC009C60B6 /* TabBarController.swift */,
+				8D502EA2265A2B7100F92D50 /* ViewControllerFavoritePlaces.swift */,
+
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -346,6 +352,7 @@
 				0F8CE1AF2655A6D600BFD66A /* SelectionButton.swift in Sources */,
 				8D19FC1F26586ED900523E89 /* CollectionViewCellFavoritePlaces.swift in Sources */,
 				0B33D18A265441A70006B132 /* TVCViewLunchbreaks.swift in Sources */,
+				8D502EA0265A230600F92D50 /* Lugar.swift in Sources */,
 				0B33D179265432C70006B132 /* Lunchbreak.swift in Sources */,
 				0B33D18E2654420B0006B132 /* TVCAddFriends.swift in Sources */,
 				0B299D9C2653308A005A2B77 /* VCMain.swift in Sources */,
@@ -360,6 +367,7 @@
 				0FA6E2D926549D5700EC7133 /* VCSignUp.swift in Sources */,
 				0B299CFE26531CA8005A2B77 /* SceneDelegate.swift in Sources */,
 				0B33D181265440430006B132 /* VCCreateLunchbreak.swift in Sources */,
+				8D502EA3265A2B7100F92D50 /* ViewControllerFavoritePlaces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

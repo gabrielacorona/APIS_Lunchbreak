@@ -15,10 +15,10 @@ class CollectionViewCellFavoritePlaces: UICollectionViewCell {
     
     override func awakeFromNib() {
            super.awakeFromNib()
-        viewCell.backgroundColor = UIColor(red: 249/255, green: 46/255, blue: 23/255, alpha: 1)
-        viewCell.layer.cornerRadius = 5
-        lbName.textColor = .white
-        lbCategory.textColor = .white
-        lbLocation.textColor = .white
+        //viewCell.backgroundColor = UIColor(red: 249/255, green: 46/255, blue: 23/255, alpha: 1)
+        viewCell.layer.cornerRadius = 20
+        viewCell.layer.borderWidth = 0.5
+        viewCell.layer.borderColor = CGColor(red: 178/255, green: 190/255, blue: 195/255, alpha: 1)
+        lbName.textColor = UIColor(red: 250/255, green: 79/255, blue: 59/255, alpha: 0.9)
     }
 }
