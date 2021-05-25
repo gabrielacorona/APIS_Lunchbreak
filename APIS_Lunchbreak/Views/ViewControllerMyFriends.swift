@@ -9,7 +9,10 @@ import UIKit
 
 class ViewControllerMyFriends: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var currUser = User()
-    var listaAmigos = ["Caro", "Gaba", "Andres", "Pau", "Cati"]
+    var listaAmigos: [String] = []
+    var listaUsersAmigos = [User]()
+    var usersDB = [User]()
+    
     var coloresDisponibles = [
         UIColor(red: 30/255, green: 205/255, blue: 140/255, alpha: 1),
         UIColor(red: 254/255, green: 205/255, blue: 86/255, alpha: 1),
@@ -22,10 +25,7 @@ class ViewControllerMyFriends: UIViewController, UITableViewDataSource, UITableV
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      
-        
-        print("curr user myfriends")
-        print(currUser.fName)
+        listaAmigos = currUser.friends
         
         
         btnAdd.layer.cornerRadius = 20
@@ -35,17 +35,30 @@ class ViewControllerMyFriends: UIViewController, UITableViewDataSource, UITableV
         tableView.dataSource = self
         tableView.delegate = self
     }
+    func getInfo(){
+        DatabaseManager.shared.getUsuarios{ (users) in
+            self.usersDB = users
+            for u in users{
+                for f in self.listaAmigos{
+                    if u.id == f{
+                        self.listaUsersAmigos.append(u)
+                    }
+                }
+                
+            }
+        }
+    }
     
     // MARK: - Métodos de Data Source
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return currUser.friends.count
+        return listaUsersAmigos.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "celdaLunchB") as! TableViewCellLunchB
         
-        cell.lbLuncherName.text = currUser.friends[indexPath.row]
+        cell.lbLuncherName.text = listaUsersAmigos[indexPath.row].fName
         cell.leftBar.backgroundColor = coloresDisponibles[indexPath.row]
         cell.lbLuncherName.textColor = coloresDisponibles[indexPath.row]
         
