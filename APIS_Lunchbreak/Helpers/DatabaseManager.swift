@@ -76,6 +76,12 @@ class DatabaseManager{
     func editUser(id:String,fName:String, lName:String,ocupation:String, email:String, password:String,description:String, phoneNum:String,favFoods:[Bool], favPlaces:[[String]]){
         firestore.collection("User").document(id).updateData(["fName":fName, "lName":lName, "ocupation":ocupation,  "email":email, "password": password, "description":description,"phoneNum":phoneNum,"favFoods":favFoods,"favPlaces":favPlaces ] )
     }
+     func editFavPlace(id:String, favPlaces:[String : String?]){
+        firestore.collection("User").document(id).updateData(["favPlaces":favPlaces ] )
+    }
+     func editFavFoods(id:String, favFoods:[Bool]){
+        firestore.collection("User").document(id).updateData(["favFoods":favFoods ] )
+    }
     
     
     //MARK: - Delete DB Records
