@@ -10,6 +10,12 @@ import UIKit
 class ViewControllerMyFriends: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var currUser = User()
     var listaAmigos = ["Caro", "Gaba", "Andres", "Pau", "Cati"]
+    var listaTiempo = ["10.20", "9.15", "13.45", "8.50", "22.10"]
+    var listaComida = ["Mexican", "Italian", "Fast Food", "Japanese", "Indian"]
+    var listaLoc = ["South Side", "Financial District", " East Side", "Financial District", "West Side"]
+    var listajoined = ["Gaba", "Concha", "Ana", "Ricky", "Pau"]
+
+    
     var coloresDisponibles = [
         UIColor(red: 30/255, green: 205/255, blue: 140/255, alpha: 1),
         UIColor(red: 254/255, green: 205/255, blue: 86/255, alpha: 1),
@@ -46,6 +52,10 @@ class ViewControllerMyFriends: UIViewController, UITableViewDataSource, UITableV
         let cell = tableView.dequeueReusableCell(withIdentifier: "celdaLunchB") as! TableViewCellLunchB
         
         cell.lbLuncherName.text = listaAmigos[indexPath.row]
+        cell.lbTime.text = listaTiempo[indexPath.row]
+        cell.lbToEat.text = listaComida[indexPath.row]
+        cell.lbLocation.text = listaLoc[indexPath.row]
+        cell.lbJoined.text = listajoined[indexPath.row]
         cell.leftBar.backgroundColor = coloresDisponibles[indexPath.row]
         cell.lbLuncherName.textColor = coloresDisponibles[indexPath.row]
         
