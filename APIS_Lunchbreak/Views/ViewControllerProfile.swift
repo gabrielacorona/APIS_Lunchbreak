@@ -91,8 +91,19 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! ViewControllerFavoritePlaces
-        vc.delegate = self
+        if  segue.identifier == "addFavPlace"{
+            
+            let favPlaces = segue.destination as! ViewControllerFavoritePlaces
+            favPlaces.currUser = currUser
+        }
+        if segue.identifier == "favFoods"{
+            let editFood =  segue.destination as! VCEditFood
+            editFood.currUser = currUser
+        }
+        
+        
+        
+        
     }
     
     

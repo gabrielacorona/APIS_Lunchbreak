@@ -15,6 +15,8 @@ class UserInfo{
 class TVCViewLunchbreaks: UITableViewController {
     var lunchbreaksDB = [Lunchbreak]()
     var usersDB = [User]()
+    var currUser = User()
+
     var hostNames = [User]()
 
     
@@ -54,7 +56,6 @@ class TVCViewLunchbreaks: UITableViewController {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath)
         celda.textLabel?.text = lunchbreaksDB[indexPath.row].host
         celda.detailTextLabel?.text = lunchbreaksDB[indexPath.row].location
-        print(hostNames)
         
 
         return celda
