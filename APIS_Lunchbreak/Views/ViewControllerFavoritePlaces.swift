@@ -12,7 +12,8 @@ protocol protocolAddPlace {
 }
 
 class ViewControllerFavoritePlaces: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
-    
+    var currUser = User()
+
 
     @IBOutlet weak var tfName: UITextField!
     @IBOutlet weak var pickerView: UIPickerView!
@@ -58,11 +59,24 @@ class ViewControllerFavoritePlaces: UIViewController, UIPickerViewDataSource, UI
     @IBAction func addPlace(_ sender: UIButton) {
         if (tfName.text != nil) && (tfLocation.text != nil)  {
             let pl = Lugar(nombre: tfName.text!, categoria: categorySelected, ubicacion: tfLocation.text!)
-            delegate.addPlace(place: pl)
-            dismiss(animated: true, completion: nil)
+//            delegate.addPlace(place: pl)
+//            dismiss(animated: true, completion: nil)
+            addFavs()
         }
         
+        
     }
+    func addFavs(){
+        let temp = [
+            "name":tfName.text,
+            "typeFood":categorySelected,
+            "description":tfLocation.text
+         ]
+        DatabaseManager.shared.editFavPlace(id:currUser.id,favPlaces:temp)
+    }
+    
+    
+   
     
     
     /*
