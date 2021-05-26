@@ -16,6 +16,7 @@ class TVCViewLunchbreaks: UITableViewController {
     var lunchbreaksDB = [Lunchbreak]()
     var usersDB = [User]()
     var hostNames = [User]()
+    var currUser = User()
 
     
     override func viewDidLoad() {

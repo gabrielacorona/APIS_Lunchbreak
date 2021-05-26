@@ -57,8 +57,8 @@ class ViewControllerFavoritePlaces: UIViewController, UIPickerViewDataSource, UI
     
     @IBAction func addPlace(_ sender: UIButton) {
         if (tfName.text != nil) && (tfLocation.text != nil)  {
-            let pl = Lugar(nombre: tfName.text!, categoria: categorySelected, ubicacion: tfLocation.text!)
-            delegate.addPlace(place: pl)
+//            let pl = Lugar(nombre: tfName.text!, categoria: categorySelected, ubicacion: tfLocation.text!)
+//            delegate.addPlace(place: pl)
             dismiss(animated: true, completion: nil)
         }
         

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="voG-2P-JyQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="voG-2P-JyQ">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -61,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-291" y="270"/>
+            <point key="canvasLocation" x="-1118" y="151"/>
         </scene>
         <!--Add Friends-->
         <scene sceneID="Pvg-iU-BZk">
@@ -161,7 +161,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPd-7b-M0z">
-                                <rect key="frame" x="15" y="169" width="360" height="32"/>
+                                <rect key="frame" x="15" y="169" width="360" height="29.333333333333343"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Name of Place">
                                         <attributes>
@@ -173,7 +173,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHf-5U-1Xt">
-                                <rect key="frame" x="15" y="285" width="360" height="32"/>
+                                <rect key="frame" x="15" y="282.33333333333331" width="360" height="29.333333333333314"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Category">
                                         <attributes>
@@ -185,7 +185,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oL0-dZ-kj4">
-                                <rect key="frame" x="15" y="573" width="360" height="32"/>
+                                <rect key="frame" x="15" y="567.66666666666663" width="360" height="29.333333333333371"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Location">
                                         <attributes>
@@ -197,12 +197,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Ey-Bd-omR">
-                                <rect key="frame" x="15" y="216" width="360" height="34"/>
+                                <rect key="frame" x="15" y="213.33333333333334" width="360" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UQ1-pK-dr3">
-                                <rect key="frame" x="15" y="620" width="360" height="34"/>
+                                <rect key="frame" x="15" y="612" width="360" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -220,7 +220,7 @@
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7A-BC-kY7">
-                                <rect key="frame" x="15" y="322" width="360" height="216"/>
+                                <rect key="frame" x="15" y="316.66666666666669" width="360" height="216.00000000000006"/>
                             </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kD6-fF-4hU"/>
@@ -266,14 +266,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J14-W7-6eb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1944.6153846153845" y="19.90521327014218"/>
+            <point key="canvasLocation" x="1692" y="422"/>
         </scene>
         <!--Create Lunchbreak-->
         <scene sceneID="LOT-qe-msa">
             <objects>
                 <viewController id="yBN-64-4bM" customClass="VCCreateLunchbreak" customModule="APIS_Lunchbreak" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="muA-O1-hDL">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0k-tQ-QMi">
@@ -301,20 +301,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsC-jh-scH">
-                                <rect key="frame" x="0.0" y="42" width="390" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="New Lunch.break">
-                                        <attributes>
-                                            <color key="NSColor" red="0.99097615480000001" green="0.2761610746" blue="0.111935772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="30" name="CircularStd-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70F-Pw-GUV">
                                 <rect key="frame" x="18" y="240" width="117" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -348,7 +334,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P9c-Ok-76f">
-                                <rect key="frame" x="71" y="716" width="229" height="40"/>
+                                <rect key="frame" x="71" y="693" width="229" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.1803921568627451" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Add my Lunchbreak">
@@ -489,6 +475,20 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsC-jh-scH">
+                                <rect key="frame" x="0.0" y="16" width="390" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="New Lunch.break">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99097615480000001" green="0.2761610746" blue="0.111935772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="CircularStd-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="80P-cu-9la"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -556,16 +556,35 @@
             </objects>
             <point key="canvasLocation" x="38" y="1024"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="LYG-xA-0ve">
+            <objects>
+                <tabBarController id="EuC-PC-qci" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="CbP-We-Fa3"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YbT-FR-uCO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oPd-nF-jc0" kind="relationship" relationship="viewControllers" id="6cr-X8-QH1"/>
+                        <segue destination="At1-Jc-atK" kind="relationship" relationship="viewControllers" id="VQW-pe-UD7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yx6-HL-OA7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1118" y="-599"/>
+        </scene>
         <!--Profile-->
         <scene sceneID="d8L-io-gez">
             <objects>
                 <viewController id="At1-Jc-atK" customClass="ViewControllerProfile" customModule="APIS_Lunchbreak" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7DP-sJ-PwA">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHa-qc-nYy">
-                                <rect key="frame" x="15" y="55" width="360" height="53"/>
+                                <rect key="frame" x="15" y="99" width="360" height="46.666666666666657"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Profile">
                                         <attributes>
@@ -577,7 +596,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPm-Cn-TQ1">
-                                <rect key="frame" x="15" y="133" width="360" height="33.333333333333343"/>
+                                <rect key="frame" x="15" y="170.66666666666666" width="360" height="29.333333333333343"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Jason Smith">
                                         <attributes>
@@ -589,7 +608,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEC-Je-UFQ">
-                                <rect key="frame" x="15" y="230.66666666666666" width="360" height="26.666666666666657"/>
+                                <rect key="frame" x="15" y="264.33333333333331" width="360" height="23.333333333333314"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Description">
                                         <attributes>
@@ -601,7 +620,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKm-xG-Wae">
-                                <rect key="frame" x="15" y="322.66666666666669" width="360" height="26.666666666666686"/>
+                                <rect key="frame" x="15" y="353" width="360" height="23.333333333333314"/>
                                 <attributedString key="attributedText">
                                     <fragment content="My Favorite Foods">
                                         <attributes>
@@ -613,7 +632,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGP-TH-cZf">
-                                <rect key="frame" x="15" y="469.33333333333331" width="177.33333333333334" height="30"/>
+                                <rect key="frame" x="15" y="496.33333333333331" width="170.33333333333334" height="29.999999999999943"/>
                                 <attributedString key="attributedText">
                                     <fragment content="My Favorite Places">
                                         <attributes>
@@ -625,7 +644,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWB-rN-f0A">
-                                <rect key="frame" x="15" y="181.33333333333334" width="360" height="19.333333333333343"/>
+                                <rect key="frame" x="15" y="215" width="360" height="19.333333333333343"/>
                                 <attributedString key="attributedText">
                                     <fragment content="UX Designer">
                                         <attributes>
@@ -637,7 +656,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nVZ-SZ-0F6">
-                                <rect key="frame" x="15" y="514.33333333333337" width="360" height="128"/>
+                                <rect key="frame" x="15" y="541.33333333333337" width="360" height="128"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="8ah-ec-3oc"/>
@@ -744,7 +763,7 @@
                                 </cells>
                             </collectionView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="5Nx-Jd-0OJ">
-                                <rect key="frame" x="15" y="364.33333333333331" width="360" height="30"/>
+                                <rect key="frame" x="15" y="391.33333333333331" width="360" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usd-qj-3Di" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="110" height="30"/>
@@ -776,7 +795,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="A23-Ba-ThE">
-                                <rect key="frame" x="15" y="409.33333333333331" width="360" height="30"/>
+                                <rect key="frame" x="15" y="436.33333333333331" width="360" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAr-0y-Exh" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="110" height="30"/>
@@ -808,13 +827,13 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nug-wx-GtX">
-                                <rect key="frame" x="15" y="272.33333333333331" width="360" height="20.333333333333314"/>
+                                <rect key="frame" x="15" y="302.66666666666669" width="360" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zgJ-ob-gfY">
-                                <rect key="frame" x="212.33333333333337" y="469.33333333333331" width="162.66666666666663" height="30"/>
+                                <rect key="frame" x="205.33333333333337" y="496.33333333333331" width="169.66666666666663" height="29.999999999999943"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="bLe-bk-CXY"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="neB-Jb-fjl"/>
@@ -834,7 +853,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kPL-8B-uSB">
-                                <rect key="frame" x="345" y="321.66666666666669" width="30" height="31"/>
+                                <rect key="frame" x="345" y="352" width="30" height="29.333333333333314"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Edit">
@@ -925,7 +944,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ie-ub-pZV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="504.61538461538458" y="-270.14218009478674"/>
+            <point key="canvasLocation" x="2" y="-284"/>
         </scene>
         <!--Home-->
         <scene sceneID="3Eb-5R-0To">
@@ -1128,7 +1147,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="yBN-64-4bM" kind="presentation" modalPresentationStyle="fullScreen" id="BSk-gg-duL"/>
+                                    <segue destination="yBN-64-4bM" kind="show" id="BSk-gg-duL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWP-Eq-ggt">
@@ -1136,7 +1155,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="My Friends">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" size="17" name="CircularStd-Book"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1170,7 +1189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWn-So-5I1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="550.76923076923072" y="-953.3175355450237"/>
+            <point key="canvasLocation" x="2" y="-1008"/>
         </scene>
         <!--Join LunchB-->
         <scene sceneID="Y2O-WC-euH">
@@ -1394,7 +1413,7 @@
                                 </state>
                                 <connections>
                                     <action selector="addUser:" destination="GgT-9F-3sn" eventType="touchUpInside" id="hKa-tF-f7X"/>
-                                    <segue destination="PQ6-fL-TwM" kind="show" id="kEE-b2-WbK"/>
+                                    <segue destination="EuC-PC-qci" kind="presentation" modalPresentationStyle="fullScreen" id="1KQ-lf-uXw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dji-P0-5yc">
@@ -1797,7 +1816,7 @@
                                 </state>
                                 <connections>
                                     <action selector="signInPressed:" destination="voG-2P-JyQ" eventType="touchUpInside" id="pSb-yN-VVd"/>
-                                    <segue destination="PQ6-fL-TwM" kind="show" id="752-gT-fCG"/>
+                                    <segue destination="EuC-PC-qci" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="N2O-BO-JOI"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="K1d-6Z-llY">
@@ -1850,124 +1869,122 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vmU-c6-GPf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1985" y="-636"/>
+            <point key="canvasLocation" x="-2137" y="-813"/>
         </scene>
-        <!--View Controller-->
+        <!--Home Buttons-->
         <scene sceneID="85V-BQ-jzg">
             <objects>
-                <viewController id="PQ6-fL-TwM" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ko7-ho-cIq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="PQ6-fL-TwM" customClass="VCHomeButtons" customModule="APIS_Lunchbreak" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wpB-au-mo7">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tyq-q0-11P">
                                 <rect key="frame" x="109" y="216" width="172" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="View friends lunchbreaks"/>
-                                <connections>
-                                    <segue destination="oPd-nF-jc0" kind="show" id="ia6-hU-oVP"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5T0-th-IeB">
                                 <rect key="frame" x="143" y="342" width="105" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="View my profile"/>
-                                <connections>
-                                    <segue destination="At1-Jc-atK" kind="show" id="Esi-sb-K15"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ipM-WT-hhT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="djg-Ii-IzE"/>
+                    <connections>
+                        <outlet property="viewFriendsLunchbreaks" destination="Tyq-q0-11P" id="Ry4-Mi-Oek"/>
+                        <outlet property="viewProfile" destination="5T0-th-IeB" id="Pch-RS-ME3"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ko7-ho-cIq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-752" y="-612"/>
+            <point key="canvasLocation" x="-1986" y="206"/>
         </scene>
     </scenes>
     <designables>
         <designable name="148-5y-edu">
-            <size key="intrinsicContentSize" width="43" height="30"/>
+            <size key="intrinsicContentSize" width="48" height="33"/>
         </designable>
         <designable name="15G-jp-SsT">
-            <size key="intrinsicContentSize" width="43" height="30"/>
+            <size key="intrinsicContentSize" width="48" height="33"/>
         </designable>
         <designable name="5rJ-X3-LWJ">
-            <size key="intrinsicContentSize" width="57" height="30"/>
+            <size key="intrinsicContentSize" width="64" height="33"/>
         </designable>
         <designable name="6mQ-OI-16i">
-            <size key="intrinsicContentSize" width="43" height="30"/>
+            <size key="intrinsicContentSize" width="48" height="33"/>
         </designable>
         <designable name="AAn-1U-XBh">
-            <size key="intrinsicContentSize" width="41" height="30"/>
+            <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="Bg5-Xt-Cmf">
-            <size key="intrinsicContentSize" width="53" height="30"/>
+            <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="CGW-EX-6c6">
-            <size key="intrinsicContentSize" width="53" height="30"/>
+            <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="D1P-kn-kgM">
-            <size key="intrinsicContentSize" width="39" height="30"/>
+            <size key="intrinsicContentSize" width="44" height="33"/>
         </designable>
         <designable name="IaW-4k-RKT">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="42" height="33"/>
         </designable>
         <designable name="NwC-ca-7kV">
-            <size key="intrinsicContentSize" width="41" height="30"/>
+            <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="VAr-0y-Exh">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="42" height="33"/>
         </designable>
         <designable name="WzE-65-1tk">
-            <size key="intrinsicContentSize" width="39" height="30"/>
+            <size key="intrinsicContentSize" width="44" height="33"/>
         </designable>
         <designable name="XPP-wh-l7b">
-            <size key="intrinsicContentSize" width="43" height="30"/>
+            <size key="intrinsicContentSize" width="48" height="33"/>
         </designable>
         <designable name="XbM-Z0-6xE">
-            <size key="intrinsicContentSize" width="41" height="30"/>
+            <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="YZv-TF-e9j">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="42" height="33"/>
         </designable>
         <designable name="bCc-J9-PnE">
-            <size key="intrinsicContentSize" width="41" height="30"/>
+            <size key="intrinsicContentSize" width="45" height="33"/>
         </designable>
         <designable name="bIi-Wc-0Xg">
-            <size key="intrinsicContentSize" width="53" height="30"/>
+            <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="c6q-Nc-Q0R">
-            <size key="intrinsicContentSize" width="39" height="30"/>
+            <size key="intrinsicContentSize" width="44" height="33"/>
         </designable>
         <designable name="fbp-wH-4XH">
             <size key="intrinsicContentSize" width="34" height="33"/>
         </designable>
         <designable name="mKD-AA-wXH">
-            <size key="intrinsicContentSize" width="39" height="30"/>
+            <size key="intrinsicContentSize" width="44" height="33"/>
         </designable>
         <designable name="pC9-wv-YZF">
-            <size key="intrinsicContentSize" width="57" height="30"/>
+            <size key="intrinsicContentSize" width="64" height="33"/>
         </designable>
         <designable name="usd-qj-3Di">
-            <size key="intrinsicContentSize" width="46" height="30"/>
+            <size key="intrinsicContentSize" width="51" height="33"/>
         </designable>
         <designable name="wyH-cE-w0A">
             <size key="intrinsicContentSize" width="46" height="26"/>
         </designable>
         <designable name="yRv-6f-IYk">
-            <size key="intrinsicContentSize" width="53" height="30"/>
+            <size key="intrinsicContentSize" width="59" height="33"/>
         </designable>
         <designable name="yeF-ej-W3f">
-            <size key="intrinsicContentSize" width="38" height="30"/>
+            <size key="intrinsicContentSize" width="42" height="33"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="752-gT-fCG"/>
-        <segue reference="ia6-hU-oVP"/>
-        <segue reference="RZT-xn-M3U"/>
+        <segue reference="obp-NR-IoP"/>
+        <segue reference="1KQ-lf-uXw"/>
+        <segue reference="BSk-gg-duL"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="intro.jpeg" width="375" height="812"/>
