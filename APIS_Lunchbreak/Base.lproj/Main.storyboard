@@ -349,7 +349,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createNewLunchbreak:" destination="yBN-64-4bM" eventType="touchUpInside" id="5pB-FY-TXm"/>
-                                    <segue destination="oPd-nF-jc0" kind="show" id="obp-NR-IoP"/>
+                                    <segue destination="oPd-nF-jc0" kind="presentation" modalPresentationStyle="fullScreen" id="obp-NR-IoP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wyH-cE-w0A" customClass="SelectionButton" customModule="APIS_Lunchbreak" customModuleProvider="target">
@@ -509,7 +509,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dc4-79-qDi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3209" y="-296"/>
+            <point key="canvasLocation" x="3354" y="-763"/>
         </scene>
         <!--View Lunchbreaks-->
         <scene sceneID="S9t-gh-MOA">
@@ -951,11 +951,11 @@
             <objects>
                 <viewController id="oPd-nF-jc0" customClass="ViewControllerMyFriends" customModule="APIS_Lunchbreak" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R8b-SA-CrR">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LoJ-yV-waf">
-                                <rect key="frame" x="0.0" y="50" width="390" height="626"/>
+                                <rect key="frame" x="0.0" y="94" width="390" height="636"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="celdaLunchB" rowHeight="201" id="9Gi-s4-JGv" customClass="TableViewCellLunchB" customModule="APIS_Lunchbreak" customModuleProvider="target">
@@ -1131,7 +1131,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9IE-lA-76o">
-                                <rect key="frame" x="40" y="696" width="310" height="40"/>
+                                <rect key="frame" x="40" y="750" width="310" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.91764705879999997" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="NNx-zD-ge8"/>
@@ -1151,7 +1151,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWP-Eq-ggt">
-                                <rect key="frame" x="20" y="15" width="350" height="20"/>
+                                <rect key="frame" x="20" y="59" width="350" height="20"/>
                                 <attributedString key="attributedText">
                                     <fragment content="My Friends">
                                         <attributes>
