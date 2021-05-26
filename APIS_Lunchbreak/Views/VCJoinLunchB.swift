@@ -19,6 +19,8 @@ class VCJoinLunchB: UIViewController {
         super.viewDidLoad()
         attending?.layer.cornerRadius = 10
         attending?.clipsToBounds = true
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
 
         // Do any additional setup after loading the view.
     }

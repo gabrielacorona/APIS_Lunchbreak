@@ -27,6 +27,8 @@ class ViewControllerFavoritePlaces: UIViewController, UIPickerViewDataSource, UI
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
 
         pickerView.dataSource = self
         pickerView.delegate = self

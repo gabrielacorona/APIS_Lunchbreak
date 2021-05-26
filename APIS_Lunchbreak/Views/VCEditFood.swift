@@ -21,6 +21,9 @@ class VCEditFood: UIViewController {
         super.viewDidLoad()
         btnArray = [btnMexican, btnItalian, btnVegan, btnAsian, btnHealthy, btnOther]
         assignBtnIds()
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
+
         // Do any additional setup after loading the view.
     }
     var ogTrues : [Int] = [0,0,0,0,0,0]

@@ -43,7 +43,7 @@ import UIKit
         // Setup the Button Depending on What State it is in
         if active {
             setSelected()
-        } else {
+        } else { 
             setDeselected()
         }
         

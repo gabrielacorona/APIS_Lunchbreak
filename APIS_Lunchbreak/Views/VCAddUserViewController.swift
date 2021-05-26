@@ -29,6 +29,9 @@ class VCAddUserViewController: UIViewController {
         self.title = "Create User"
         btnArray = [btnMexican, btnItalian, btnVegan, btnAsian,btnHealthy,btnOther]
         assignBtnIds()
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
+
         // Do any additional setup after loading the view.
     }
     

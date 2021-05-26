@@ -40,6 +40,9 @@ class ViewControllerProfile: UIViewController, UICollectionViewDataSource, UICol
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
+
         
         print("curr user profile")
         print(currUser.fName)

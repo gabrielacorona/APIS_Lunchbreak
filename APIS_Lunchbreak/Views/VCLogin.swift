@@ -21,6 +21,9 @@ class VCLogin: UIViewController {
         super.viewDidLoad()
         self.title = "Login"
         getInfo()
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
+
 //        emailF?.layer.cornerRadius = 15.0
 //        passF?.layer.cornerRadius = 20.0
 

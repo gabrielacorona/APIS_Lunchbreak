@@ -28,7 +28,9 @@ class ViewControllerMyFriends: UIViewController, UITableViewDataSource, UITableV
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
+
         
         print("curr user myfriends")
         print(currUser.fName)
